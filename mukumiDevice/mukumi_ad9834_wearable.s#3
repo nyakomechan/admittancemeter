@@ -19763,7 +19763,7 @@ Consuming only 20 mW of power at 3 V makes the AD9834 an ideal candidate for pow
 <part name="C27" library="rcl" deviceset="C-EU" device="C0402" value="10u"/>
 <part name="C28" library="rcl" deviceset="C-EU" device="C0402" value="10u"/>
 <part name="C31" library="rcl" deviceset="C-EU" device="C0402" value="10u"/>
-<part name="C32" library="rcl" deviceset="C-EU" device="C0402K" value="0.1u"/>
+<part name="C32" library="rcl" deviceset="C-EU" device="C0402" value="0.1u"/>
 <part name="AGND1" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND2" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND3" library="supply1" deviceset="AGND" device=""/>
@@ -19790,7 +19790,6 @@ Consuming only 20 mW of power at 3 V makes the AD9834 an ideal candidate for pow
 <part name="AGND23" library="supply1" deviceset="AGND" device=""/>
 <part name="C35" library="rcl" deviceset="C-EU" device="C0402" value="0.1u"/>
 <part name="C36" library="rcl" deviceset="C-EU" device="C0402" value="0.01u"/>
-<part name="P+7" library="supply1" deviceset="+5V" device=""/>
 <part name="AGND9" library="supply1" deviceset="AGND" device=""/>
 <part name="U$8" library="sg-8002" deviceset="SG8002LB" device=""/>
 <part name="AGND10" library="supply1" deviceset="AGND" device=""/>
@@ -21531,7 +21530,6 @@ Consuming only 20 mW of power at 3 V makes the AD9834 an ideal candidate for pow
 <instance part="AGND23" gate="VR1" x="170.18" y="91.44" rot="R180"/>
 <instance part="C35" gate="G$1" x="170.18" y="86.36"/>
 <instance part="C36" gate="G$1" x="162.56" y="68.58"/>
-<instance part="P+7" gate="1" x="162.56" y="73.66"/>
 <instance part="U$8" gate="G$1" x="99.06" y="-7.62"/>
 </instances>
 <busses>
@@ -21620,12 +21618,6 @@ Consuming only 20 mW of power at 3 V makes the AD9834 an ideal candidate for pow
 <segment>
 <pinref part="C34" gate="G$1" pin="1"/>
 <pinref part="GND36" gate="1" pin="GND"/>
-</segment>
-</net>
-<net name="+5V" class="0">
-<segment>
-<pinref part="C36" gate="G$1" pin="1"/>
-<pinref part="P+7" gate="1" pin="+5V"/>
 </segment>
 </net>
 <net name="VDD" class="0">
@@ -21897,8 +21889,13 @@ Consuming only 20 mW of power at 3 V makes the AD9834 an ideal candidate for pow
 <wire x1="147.32" y1="86.36" x2="142.24" y2="86.36" width="0.1524" layer="91"/>
 <junction x="142.24" y="86.36"/>
 <pinref part="C31" gate="G$1" pin="1"/>
-<wire x1="142.24" y1="91.44" x2="157.48" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="91.44" x2="149.86" y2="91.44" width="0.1524" layer="91"/>
 <label x="149.86" y="91.44" size="1.778" layer="95"/>
+<pinref part="C36" gate="G$1" pin="1"/>
+<wire x1="149.86" y1="91.44" x2="157.48" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="71.12" x2="149.86" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="71.12" x2="149.86" y2="91.44" width="0.1524" layer="91"/>
+<junction x="149.86" y="91.44"/>
 </segment>
 </net>
 <net name="3.3V_MC" class="0">

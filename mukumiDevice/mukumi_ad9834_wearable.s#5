@@ -12767,33 +12767,6 @@ Source: Epson Toyocom FA-20H.pdf</description>
 <rectangle x1="0.2" y1="-1.3" x2="1.5" y2="-0.1" layer="29"/>
 <rectangle x1="0.3" y1="-1.2" x2="1.4" y2="-0.2" layer="31"/>
 </package>
-<package name="DIL08-4">
-<description>&lt;b&gt;CRYSTAL RESONATOR&lt;/b&gt;</description>
-<wire x1="-5.715" y1="-0.635" x2="-5.715" y2="0.635" width="0.1524" layer="21" curve="180"/>
-<wire x1="-5.715" y1="-0.635" x2="-5.715" y2="-2.794" width="0.1524" layer="21"/>
-<wire x1="-5.715" y1="-2.794" x2="5.715" y2="-2.794" width="0.1524" layer="21"/>
-<wire x1="5.715" y1="-2.794" x2="5.715" y2="2.794" width="0.1524" layer="21"/>
-<wire x1="5.715" y1="2.794" x2="-5.715" y2="2.794" width="0.1524" layer="21"/>
-<wire x1="-5.715" y1="2.794" x2="-5.715" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-1.143" y1="1.778" x2="-0.508" y2="1.778" width="0.1524" layer="21"/>
-<wire x1="-0.508" y1="1.778" x2="-0.508" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-0.508" y1="1.778" x2="-0.508" y2="2.286" width="0.1524" layer="21"/>
-<wire x1="-0.127" y1="2.286" x2="-0.127" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-0.127" y1="1.27" x2="0.127" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="0.127" y1="1.27" x2="0.127" y2="2.286" width="0.1524" layer="21"/>
-<wire x1="0.127" y1="2.286" x2="-0.127" y2="2.286" width="0.1524" layer="21"/>
-<wire x1="0.508" y1="2.286" x2="0.508" y2="1.778" width="0.1524" layer="21"/>
-<wire x1="0.508" y1="1.778" x2="0.508" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="0.508" y1="1.778" x2="1.143" y2="1.778" width="0.1524" layer="21"/>
-<pad name="1" x="-3.81" y="-3.81" drill="0.8128"/>
-<pad name="2" x="3.81" y="-3.81" drill="0.8128"/>
-<pad name="3" x="3.81" y="3.81" drill="0.8128"/>
-<pad name="4" x="-3.81" y="3.81" drill="0.8128"/>
-<text x="-5.9944" y="-2.54" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
-<text x="-5.08" y="-2.54" size="1.016" layer="21" ratio="12">1</text>
-<text x="-2.54" y="-2.2606" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<text x="-5.08" y="1.524" size="1.016" layer="21" ratio="12">4</text>
-</package>
 </packages>
 <symbols>
 <symbol name="Q-SHIELD2">
@@ -12819,38 +12792,6 @@ Source: Epson Toyocom FA-20H.pdf</description>
 <pin name="1" x="-2.54" y="0" visible="pad" length="short" direction="pas" swaplevel="1"/>
 <pin name="4" x="2.54" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
 <pin name="2" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-</symbol>
-<symbol name="QG">
-<wire x1="-7.62" y1="7.62" x2="-7.62" y2="-7.62" width="0.4064" layer="94"/>
-<wire x1="7.62" y1="-7.62" x2="-7.62" y2="-7.62" width="0.4064" layer="94"/>
-<wire x1="7.62" y1="-7.62" x2="7.62" y2="0" width="0.4064" layer="94"/>
-<wire x1="7.62" y1="0" x2="7.62" y2="7.62" width="0.4064" layer="94"/>
-<wire x1="-7.62" y1="7.62" x2="7.62" y2="7.62" width="0.4064" layer="94"/>
-<wire x1="-4.826" y1="-0.381" x2="-4.826" y2="0.381" width="0.254" layer="94"/>
-<wire x1="-4.826" y1="0.381" x2="-2.794" y2="0.381" width="0.254" layer="94"/>
-<wire x1="-2.794" y1="0.381" x2="-2.794" y2="-0.381" width="0.254" layer="94"/>
-<wire x1="-4.826" y1="-0.381" x2="-2.794" y2="-0.381" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-1.016" x2="-3.81" y2="-1.016" width="0.254" layer="94"/>
-<wire x1="-3.81" y1="-1.016" x2="-2.54" y2="-1.016" width="0.254" layer="94"/>
-<wire x1="-3.81" y1="1.016" x2="-3.81" y2="3.175" width="0.1524" layer="94"/>
-<wire x1="-3.81" y1="-3.175" x2="-3.81" y2="-1.016" width="0.1524" layer="94"/>
-<wire x1="-1.27" y1="5.08" x2="6.35" y2="0" width="0.4064" layer="94"/>
-<wire x1="6.35" y1="0" x2="-1.27" y2="-5.08" width="0.4064" layer="94"/>
-<wire x1="-1.27" y1="-5.08" x2="-1.27" y2="-3.175" width="0.4064" layer="94"/>
-<wire x1="-1.27" y1="-3.175" x2="-1.27" y2="3.175" width="0.4064" layer="94"/>
-<wire x1="-1.27" y1="3.175" x2="-1.27" y2="5.08" width="0.4064" layer="94"/>
-<wire x1="-3.81" y1="3.175" x2="-1.27" y2="3.175" width="0.1524" layer="94"/>
-<wire x1="-3.81" y1="-3.175" x2="-1.27" y2="-3.175" width="0.1524" layer="94"/>
-<wire x1="6.35" y1="0" x2="7.62" y2="0" width="0.1524" layer="94"/>
-<wire x1="-5.08" y1="1.016" x2="-2.54" y2="1.016" width="0.254" layer="94"/>
-<text x="-7.62" y="8.255" size="1.778" layer="95">&gt;NAME</text>
-<text x="-7.62" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
-<text x="-6.985" y="-5.842" size="1.524" layer="95">GND</text>
-<text x="-6.985" y="4.318" size="1.524" layer="95">VCC</text>
-<text x="2.54" y="-5.08" size="1.524" layer="95">OUT</text>
-<pin name="GND" x="-12.7" y="-5.08" visible="pad" length="middle" direction="pwr"/>
-<pin name="VCC" x="-12.7" y="5.08" visible="pad" length="middle" direction="pwr"/>
-<pin name="OUT" x="12.7" y="0" visible="pad" length="middle" direction="out" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -12881,29 +12822,6 @@ Source: Epson Toyocom</description>
 </connects>
 <technologies>
 <technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="SG531" prefix="QG" uservalue="yes">
-<description>&lt;b&gt;CRYSTAL RESONATOR&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="QG" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="DIL08-4">
-<connects>
-<connect gate="G$1" pin="GND" pad="2"/>
-<connect gate="G$1" pin="OUT" pad="3"/>
-<connect gate="G$1" pin="VCC" pad="4"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="SG531P16MHZ" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="01M8837" constant="no"/>
-</technology>
 </technologies>
 </device>
 </devices>
@@ -19738,6 +19656,74 @@ Consuming only 20 mW of power at 3 V makes the AD9834 an ideal candidate for pow
 </deviceset>
 </devicesets>
 </library>
+<library name="sg-8002">
+<packages>
+<package name="SG-8002LB">
+<smd name="P$1" x="-1.27" y="-1.1" dx="1.6" dy="1.5" layer="1"/>
+<smd name="P$2" x="1.27" y="-1.1" dx="1.6" dy="1.5" layer="1"/>
+<smd name="P$3" x="1.27" y="1.1" dx="1.6" dy="1.5" layer="1"/>
+<smd name="P$4" x="-1.27" y="1.1" dx="1.6" dy="1.5" layer="1"/>
+<wire x1="-2.5" y1="1.4" x2="2.5" y2="1.4" width="0.127" layer="21"/>
+<wire x1="2.5" y1="1.4" x2="2.5" y2="-1.4" width="0.127" layer="21"/>
+<wire x1="2.5" y1="-1.4" x2="-2.5" y2="-1.4" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-1.4" x2="-2.5" y2="1.4" width="0.127" layer="21"/>
+<text x="-2.6" y="-2.77" size="1.27" layer="21">SG-8002LB</text>
+</package>
+</packages>
+<symbols>
+<symbol name="SG-8002">
+<wire x1="-10.16" y1="7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="7.62" y1="0" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<pin name="VDD" x="-15.24" y="5.08" length="middle"/>
+<pin name="GND" x="-15.24" y="-5.08" length="middle"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="5.715" y2="0" width="0.254" layer="94"/>
+<wire x1="5.715" y1="0" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="-5.08" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-5.08" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-1.27" x2="-6.35" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="1.27" x2="-6.35" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-6.35" y1="0.635" x2="-3.81" y2="0.635" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="0.635" x2="-3.81" y2="-0.635" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-0.635" x2="-6.35" y2="-0.635" width="0.254" layer="94"/>
+<wire x1="-6.35" y1="-0.635" x2="-6.35" y2="0.635" width="0.254" layer="94"/>
+<pin name="OE" x="12.7" y="5.08" length="middle" rot="R180"/>
+<pin name="OUT" x="12.7" y="0" length="middle" rot="R180"/>
+<wire x1="7.62" y1="0" x2="5.715" y2="0" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="1.905" y2="5.08" width="0.254" layer="94"/>
+<wire x1="1.905" y1="5.08" x2="1.905" y2="2.54" width="0.254" layer="94"/>
+<text x="-9.525" y="8.255" size="1.27" layer="94">SG-8002LB</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SG8002LB">
+<gates>
+<gate name="G$1" symbol="SG-8002" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SG-8002LB">
+<connects>
+<connect gate="G$1" pin="GND" pad="P$2"/>
+<connect gate="G$1" pin="OE" pad="P$1"/>
+<connect gate="G$1" pin="OUT" pad="P$3"/>
+<connect gate="G$1" pin="VDD" pad="P$4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -19755,20 +19741,20 @@ Consuming only 20 mW of power at 3 V makes the AD9834 an ideal candidate for pow
 <part name="IC1A1,1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" value="1k"/>
 <part name="IC1A1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" value="1k"/>
 <part name="IC2A3,2" library="rcl" deviceset="R-EU_" device="R0402" value="20k"/>
-<part name="GND15" library="supply1" deviceset="GND" device=""/>
+<part name="GND15" library="supply1" deviceset="AGND" device=""/>
 <part name="C,IC2A3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C2012" value="4.7u"/>
 <part name="IC2B1" library="rcl" deviceset="R-EU_" device="R0402" value="20k"/>
 <part name="IC2B6,1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" value="5.1k"/>
 <part name="IC2B2" library="rcl" deviceset="R-EU_" device="R0402" value="5.1k"/>
 <part name="IC2B3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" value="20k"/>
-<part name="GND62" library="supply1" deviceset="GND" device=""/>
+<part name="GND62" library="supply1" deviceset="AGND" device=""/>
 <part name="CIC2B1" library="rcl" deviceset="C-EU" device="C2012" value="4.7u"/>
-<part name="GND63" library="supply1" deviceset="GND" device=""/>
+<part name="GND63" library="supply1" deviceset="AGND" device=""/>
 <part name="IC1B6,1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" value="2k"/>
 <part name="IC1B1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" value="1k"/>
 <part name="IC1B2" library="rcl" deviceset="R-EU_" device="R0402" value="1k"/>
-<part name="GND64" library="supply1" deviceset="GND" device=""/>
-<part name="GND65" library="supply1" deviceset="GND" device=""/>
+<part name="GND64" library="supply1" deviceset="AGND" device=""/>
+<part name="GND65" library="supply1" deviceset="AGND" device=""/>
 <part name="IC3A2" library="rcl" deviceset="R-EU_" device="R0402" value="56"/>
 <part name="IC3B1" library="rcl" deviceset="R-EU_" device="R0402" value="56"/>
 <part name="IC4A1" library="rcl" deviceset="R-EU_" device="R0402" value="560"/>
@@ -19776,10 +19762,10 @@ Consuming only 20 mW of power at 3 V makes the AD9834 an ideal candidate for pow
 <part name="IC4B1" library="rcl" deviceset="R-EU_" device="R0402" value="62a"/>
 <part name="IC4B6,1" library="rcl" deviceset="R-EU_" device="R0402" value="560a"/>
 <part name="IC4B2" library="rcl" deviceset="R-EU_" device="R0402" value="560"/>
-<part name="GND66" library="supply1" deviceset="GND" device=""/>
-<part name="GND67" library="supply1" deviceset="GND" device=""/>
+<part name="GND66" library="supply1" deviceset="AGND" device=""/>
+<part name="GND67" library="supply1" deviceset="AGND" device=""/>
 <part name="C,IC4A1,1" library="rcl" deviceset="C-EU" device="C2012" value="0.47u"/>
-<part name="GND68" library="supply1" deviceset="GND" device=""/>
+<part name="GND68" library="supply1" deviceset="AGND" device=""/>
 <part name="C,IC2A7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" value="0.1u"/>
 <part name="P+31" library="supply1" deviceset="+5V" device=""/>
 <part name="P-14" library="supply1" deviceset="-5V" device=""/>
@@ -19787,16 +19773,16 @@ Consuming only 20 mW of power at 3 V makes the AD9834 an ideal candidate for pow
 <part name="AD633_2" library="linear" deviceset="AD835" device=""/>
 <part name="P+2" library="supply1" deviceset="+5V" device=""/>
 <part name="P-4" library="supply1" deviceset="-5V" device=""/>
-<part name="GND4" library="supply1" deviceset="GND" device=""/>
+<part name="GND4" library="supply1" deviceset="AGND" device=""/>
 <part name="P+12" library="supply1" deviceset="+5V" device=""/>
 <part name="P-5" library="supply1" deviceset="-5V" device=""/>
-<part name="GND22" library="supply1" deviceset="GND" device=""/>
-<part name="GND23" library="supply1" deviceset="GND" device=""/>
-<part name="GND24" library="supply1" deviceset="GND" device=""/>
-<part name="GND25" library="supply1" deviceset="GND" device=""/>
-<part name="GND26" library="supply1" deviceset="GND" device=""/>
-<part name="GND27" library="supply1" deviceset="GND" device=""/>
-<part name="GND28" library="supply1" deviceset="GND" device=""/>
+<part name="GND22" library="supply1" deviceset="AGND" device=""/>
+<part name="GND23" library="supply1" deviceset="AGND" device=""/>
+<part name="GND24" library="supply1" deviceset="AGND" device=""/>
+<part name="GND25" library="supply1" deviceset="AGND" device=""/>
+<part name="GND26" library="supply1" deviceset="AGND" device=""/>
+<part name="GND27" library="supply1" deviceset="AGND" device=""/>
+<part name="GND28" library="supply1" deviceset="AGND" device=""/>
 <part name="IC4B6,8" library="rcl" deviceset="R-EU_" device="R0402" value="560a"/>
 <part name="IC4B6,9" library="rcl" deviceset="R-EU_" device="R0402" value="560a"/>
 <part name="IC4B6,10" library="rcl" deviceset="R-EU_" device="R0402" value="560a"/>
@@ -19804,10 +19790,10 @@ Consuming only 20 mW of power at 3 V makes the AD9834 an ideal candidate for pow
 <part name="AD633_3" library="linear" deviceset="AD835" device=""/>
 <part name="P+13" library="supply1" deviceset="+5V" device=""/>
 <part name="P-7" library="supply1" deviceset="-5V" device=""/>
-<part name="GND29" library="supply1" deviceset="GND" device=""/>
-<part name="GND30" library="supply1" deviceset="GND" device=""/>
-<part name="GND31" library="supply1" deviceset="GND" device=""/>
-<part name="GND32" library="supply1" deviceset="GND" device=""/>
+<part name="GND29" library="supply1" deviceset="AGND" device=""/>
+<part name="GND30" library="supply1" deviceset="AGND" device=""/>
+<part name="GND31" library="supply1" deviceset="AGND" device=""/>
+<part name="GND32" library="supply1" deviceset="AGND" device=""/>
 <part name="IC4B6,12" library="rcl" deviceset="R-EU_" device="R0402" value="560a"/>
 <part name="IC4B6,13" library="rcl" deviceset="R-EU_" device="R0402" value="560a"/>
 <part name="IC4" library="linear" deviceset="TL072" device="D"/>
@@ -19821,8 +19807,8 @@ Consuming only 20 mW of power at 3 V makes the AD9834 an ideal candidate for pow
 <part name="C6" library="rcl" deviceset="C-EU" device="C0805"/>
 <part name="C7" library="rcl" deviceset="C-EU" device="C0805"/>
 <part name="C8" library="rcl" deviceset="C-EU" device="C0805"/>
-<part name="GND1" library="supply1" deviceset="GND" device=""/>
-<part name="GND2" library="supply1" deviceset="GND" device=""/>
+<part name="GND1" library="supply1" deviceset="AGND" device=""/>
+<part name="GND2" library="supply1" deviceset="AGND" device=""/>
 <part name="U$5" library="linear" deviceset="ADP3338" device=""/>
 <part name="U$6" library="linear" deviceset="ADP3338" device=""/>
 <part name="C18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402"/>
@@ -19837,10 +19823,10 @@ Consuming only 20 mW of power at 3 V makes the AD9834 an ideal candidate for pow
 <part name="IC4B6,7" library="rcl" deviceset="R-EU_" device="R0402" value="560a"/>
 <part name="C29" library="rcl" deviceset="C-EU" device="C0805"/>
 <part name="C30" library="rcl" deviceset="C-EU" device="C0805"/>
-<part name="GND35" library="supply1" deviceset="GND" device=""/>
+<part name="GND35" library="supply1" deviceset="AGND" device=""/>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
 <part name="P-2" library="supply1" deviceset="-5V" device=""/>
-<part name="GND39" library="supply1" deviceset="GND" device=""/>
+<part name="GND39" library="supply1" deviceset="AGND" device=""/>
 <part name="C,IC2A2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" value="0.1u"/>
 <part name="C,IC2A4" library="rcl" deviceset="C-EU" device="C0402" value="0.1u"/>
 <part name="C,IC2A5" library="rcl" deviceset="C-EU" device="C0402" value="0.1u"/>
@@ -19849,7 +19835,7 @@ Consuming only 20 mW of power at 3 V makes the AD9834 an ideal candidate for pow
 <part name="C,IC2A10" library="rcl" deviceset="C-EU" device="C0402" value="0.1u"/>
 <part name="P+6" library="supply1" deviceset="+5V" device=""/>
 <part name="P-3" library="supply1" deviceset="-5V" device=""/>
-<part name="GND40" library="supply1" deviceset="GND" device=""/>
+<part name="GND40" library="supply1" deviceset="AGND" device=""/>
 <part name="C,IC2A1" library="rcl" deviceset="C-EU" device="C0402" value="0.1u"/>
 <part name="C,IC2A6" library="rcl" deviceset="C-EU" device="C0402" value="0.1u"/>
 <part name="C,IC2A11" library="rcl" deviceset="C-EU" device="C0402" value="0.1u"/>
@@ -19866,8 +19852,8 @@ Consuming only 20 mW of power at 3 V makes the AD9834 an ideal candidate for pow
 <part name="R34" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" value="100"/>
 <part name="R35" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" value="100"/>
 <part name="R36" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" value="100"/>
-<part name="GND41" library="supply1" deviceset="GND" device=""/>
-<part name="GND42" library="supply1" deviceset="GND" device=""/>
+<part name="GND41" library="supply1" deviceset="AGND" device=""/>
+<part name="GND42" library="supply1" deviceset="AGND" device=""/>
 <part name="U$3" library="linear" deviceset="NJM074V" device=""/>
 <part name="U$10" library="linear" deviceset="NJM074V" device=""/>
 <part name="U$7" library="linear" deviceset="NJM074V" device=""/>
@@ -19912,7 +19898,6 @@ Consuming only 20 mW of power at 3 V makes the AD9834 an ideal candidate for pow
 <part name="Q2" library="crystal" deviceset="FA-" device="20H"/>
 <part name="U1" library="ad9834" deviceset="?AD9834" device=""/>
 <part name="U2" library="ad9834" deviceset="?AD9834" device=""/>
-<part name="QG1" library="crystal" deviceset="SG531" device=""/>
 <part name="VDD3" library="supply1" deviceset="VDD" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
@@ -19979,6 +19964,8 @@ Consuming only 20 mW of power at 3 V makes the AD9834 an ideal candidate for pow
 <part name="C35" library="rcl" deviceset="C-EU" device="C0402K" value="0.1u"/>
 <part name="C36" library="rcl" deviceset="C-EU" device="C0402K" value="0.01u"/>
 <part name="P+7" library="supply1" deviceset="+5V" device=""/>
+<part name="AGND9" library="supply1" deviceset="AGND" device=""/>
+<part name="U$8" library="sg-8002" deviceset="SG8002LB" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -20010,20 +19997,20 @@ Consuming only 20 mW of power at 3 V makes the AD9834 an ideal candidate for pow
 <instance part="IC1A1,1" gate="G$1" x="-243.84" y="93.98" rot="R180"/>
 <instance part="IC1A1" gate="G$1" x="-269.24" y="93.98"/>
 <instance part="IC2A3,2" gate="G$1" x="-195.58" y="124.46" rot="R180"/>
-<instance part="GND15" gate="1" x="-203.2" y="121.92"/>
+<instance part="GND15" gate="VR1" x="-203.2" y="121.92"/>
 <instance part="C,IC2A3" gate="G$1" x="-160.02" y="109.22" rot="R90"/>
 <instance part="IC2B1" gate="G$1" x="-193.04" y="68.58" rot="R180"/>
 <instance part="IC2B6,1" gate="G$1" x="-170.18" y="58.42" rot="R180"/>
 <instance part="IC2B2" gate="G$1" x="-139.7" y="71.12" rot="R180"/>
 <instance part="IC2B3" gate="G$1" x="-195.58" y="86.36" rot="R180"/>
-<instance part="GND62" gate="1" x="-203.2" y="83.82"/>
+<instance part="GND62" gate="VR1" x="-203.2" y="83.82"/>
 <instance part="CIC2B1" gate="G$1" x="-152.4" y="71.12" rot="R90"/>
-<instance part="GND63" gate="1" x="-279.4" y="91.44"/>
+<instance part="GND63" gate="VR1" x="-279.4" y="91.44"/>
 <instance part="IC1B6,1" gate="G$1" x="-248.92" y="60.96" rot="R180"/>
 <instance part="IC1B1" gate="G$1" x="-259.08" y="81.28" rot="R90"/>
 <instance part="IC1B2" gate="G$1" x="-266.7" y="71.12" rot="R180"/>
-<instance part="GND64" gate="1" x="-259.08" y="88.9" rot="R180"/>
-<instance part="GND65" gate="1" x="-259.08" y="139.7" rot="R180"/>
+<instance part="GND64" gate="VR1" x="-259.08" y="88.9" rot="R180"/>
+<instance part="GND65" gate="VR1" x="-259.08" y="139.7" rot="R180"/>
 <instance part="IC3A2" gate="G$1" x="-50.8" y="83.82"/>
 <instance part="IC3B1" gate="G$1" x="-45.72" y="109.22"/>
 <instance part="IC4A1" gate="G$1" x="-22.86" y="116.84"/>
@@ -20031,17 +20018,17 @@ Consuming only 20 mW of power at 3 V makes the AD9834 an ideal candidate for pow
 <instance part="IC4B1" gate="G$1" x="-2.54" y="114.3"/>
 <instance part="IC4B6,1" gate="G$1" x="15.24" y="114.3"/>
 <instance part="IC4B2" gate="G$1" x="7.62" y="78.74" rot="R90"/>
-<instance part="GND66" gate="1" x="-15.24" y="106.68"/>
-<instance part="GND67" gate="1" x="-7.62" y="106.68"/>
+<instance part="GND66" gate="VR1" x="-15.24" y="106.68"/>
+<instance part="GND67" gate="VR1" x="-7.62" y="106.68"/>
 <instance part="C,IC4A1,1" gate="G$1" x="0" y="93.98" rot="R90"/>
-<instance part="GND68" gate="1" x="7.62" y="71.12"/>
+<instance part="GND68" gate="VR1" x="7.62" y="71.12"/>
 <instance part="C,IC2A7" gate="G$1" x="-246.38" y="132.08"/>
 <instance part="P+31" gate="1" x="-243.84" y="81.28" rot="R90"/>
 <instance part="P-14" gate="1" x="-243.84" y="66.04" rot="R270"/>
 <instance part="SV1" gate="G$1" x="-119.38" y="38.1"/>
 <instance part="P+3" gate="1" x="-274.32" y="25.4"/>
 <instance part="P-2" gate="1" x="-274.32" y="5.08"/>
-<instance part="GND39" gate="1" x="-213.36" y="12.7"/>
+<instance part="GND39" gate="VR1" x="-213.36" y="12.7"/>
 <instance part="C,IC2A2" gate="G$1" x="-256.54" y="20.32"/>
 <instance part="C,IC2A4" gate="G$1" x="-243.84" y="20.32"/>
 <instance part="C,IC2A5" gate="G$1" x="-233.68" y="20.32"/>
@@ -20058,8 +20045,8 @@ Consuming only 20 mW of power at 3 V makes the AD9834 an ideal candidate for pow
 <instance part="R34" gate="G$1" x="-353.06" y="99.06"/>
 <instance part="R35" gate="G$1" x="-353.06" y="91.44"/>
 <instance part="R36" gate="G$1" x="-353.06" y="68.58"/>
-<instance part="GND41" gate="1" x="-335.28" y="66.04"/>
-<instance part="GND42" gate="1" x="-337.82" y="96.52"/>
+<instance part="GND41" gate="VR1" x="-335.28" y="66.04"/>
+<instance part="GND42" gate="VR1" x="-337.82" y="96.52"/>
 <instance part="U$3" gate="G$1" x="-368.3" y="114.3"/>
 <instance part="U$3" gate="G$2" x="-292.1" y="81.28"/>
 <instance part="U$3" gate="G$3" x="-289.56" y="114.3"/>
@@ -20075,20 +20062,21 @@ Consuming only 20 mW of power at 3 V makes the AD9834 an ideal candidate for pow
 <instance part="P+8" gate="1" x="-22.86" y="104.14" rot="R90"/>
 <instance part="P-6" gate="1" x="-22.86" y="83.82" rot="R270"/>
 <instance part="U$4" gate="G$1" x="-233.68" y="60.96"/>
+<instance part="AGND9" gate="VR1" x="-88.9" y="35.56"/>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="GND" class="0">
 <segment>
-<pinref part="GND15" gate="1" pin="GND"/>
+<pinref part="GND15" gate="VR1" pin="AGND"/>
 <pinref part="IC2A3,2" gate="G$1" pin="2"/>
 <wire x1="-203.2" y1="124.46" x2="-200.66" y2="124.46" width="0.1524" layer="91"/>
 <junction x="-200.66" y="124.46"/>
 <junction x="-203.2" y="124.46"/>
 </segment>
 <segment>
-<pinref part="GND62" gate="1" pin="GND"/>
+<pinref part="GND62" gate="VR1" pin="AGND"/>
 <pinref part="IC2B3" gate="G$1" pin="2"/>
 <wire x1="-203.2" y1="86.36" x2="-200.66" y2="86.36" width="0.1524" layer="91"/>
 <junction x="-203.2" y="86.36"/>
@@ -20096,17 +20084,17 @@ Consuming only 20 mW of power at 3 V makes the AD9834 an ideal candidate for pow
 </segment>
 <segment>
 <pinref part="IC1A1" gate="G$1" pin="1"/>
-<pinref part="GND63" gate="1" pin="GND"/>
+<pinref part="GND63" gate="VR1" pin="AGND"/>
 <wire x1="-279.4" y1="93.98" x2="-274.32" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC1B1" gate="G$1" pin="2"/>
-<pinref part="GND64" gate="1" pin="GND"/>
+<pinref part="GND64" gate="VR1" pin="AGND"/>
 </segment>
 <segment>
 <pinref part="IC1A3'1" gate="G$1" pin="1"/>
 <wire x1="-259.08" y1="129.54" x2="-259.08" y2="134.62" width="0.1524" layer="91"/>
-<pinref part="GND65" gate="1" pin="GND"/>
+<pinref part="GND65" gate="VR1" pin="AGND"/>
 <wire x1="-259.08" y1="134.62" x2="-259.08" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="C,IC2A7" gate="G$1" pin="1"/>
 <wire x1="-246.38" y1="134.62" x2="-259.08" y2="134.62" width="0.1524" layer="91"/>
@@ -20118,24 +20106,19 @@ Consuming only 20 mW of power at 3 V makes the AD9834 an ideal candidate for pow
 <pinref part="IC4A1" gate="G$1" pin="2"/>
 <wire x1="-17.78" y1="116.84" x2="-15.24" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="-15.24" y1="114.3" x2="-15.24" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="GND66" gate="1" pin="GND"/>
+<pinref part="GND66" gate="VR1" pin="AGND"/>
 </segment>
 <segment>
 <pinref part="IC4B1" gate="G$1" pin="1"/>
 <wire x1="-7.62" y1="114.3" x2="-7.62" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="GND67" gate="1" pin="GND"/>
+<pinref part="GND67" gate="VR1" pin="AGND"/>
 </segment>
 <segment>
 <pinref part="IC4B2" gate="G$1" pin="1"/>
-<pinref part="GND68" gate="1" pin="GND"/>
+<pinref part="GND68" gate="VR1" pin="AGND"/>
 </segment>
 <segment>
-<pinref part="SV1" gate="G$1" pin="3"/>
-<wire x1="-111.76" y1="38.1" x2="-101.6" y2="38.1" width="0.1524" layer="91"/>
-<label x="-109.22" y="38.1" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="GND39" gate="1" pin="GND"/>
+<pinref part="GND39" gate="VR1" pin="AGND"/>
 <wire x1="-213.36" y1="15.24" x2="-233.68" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="-233.68" y1="15.24" x2="-243.84" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="-243.84" y1="15.24" x2="-256.54" y2="15.24" width="0.1524" layer="91"/>
@@ -20152,12 +20135,12 @@ Consuming only 20 mW of power at 3 V makes the AD9834 an ideal candidate for pow
 </segment>
 <segment>
 <pinref part="R36" gate="G$1" pin="2"/>
-<pinref part="GND41" gate="1" pin="GND"/>
+<pinref part="GND41" gate="VR1" pin="AGND"/>
 <wire x1="-347.98" y1="68.58" x2="-335.28" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R34" gate="G$1" pin="2"/>
-<pinref part="GND42" gate="1" pin="GND"/>
+<pinref part="GND42" gate="VR1" pin="AGND"/>
 <wire x1="-347.98" y1="99.06" x2="-337.82" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -20670,6 +20653,16 @@ Consuming only 20 mW of power at 3 V makes the AD9834 an ideal candidate for pow
 <segment>
 </segment>
 </net>
+<net name="AGND" class="0">
+<segment>
+<pinref part="SV1" gate="G$1" pin="3"/>
+<label x="-109.22" y="38.1" size="1.778" layer="95"/>
+<pinref part="AGND9" gate="VR1" pin="AGND"/>
+<wire x1="-88.9" y1="38.1" x2="-96.52" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="-101.6" y1="38.1" x2="-111.76" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="-101.6" y1="38.1" x2="-96.52" y2="38.1" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -20889,16 +20882,16 @@ Consuming only 20 mW of power at 3 V makes the AD9834 an ideal candidate for pow
 <instance part="AD633_2" gate="G$1" x="45.72" y="73.66" rot="R90"/>
 <instance part="P+2" gate="1" x="48.26" y="139.7"/>
 <instance part="P-4" gate="1" x="48.26" y="104.14"/>
-<instance part="GND4" gate="1" x="50.8" y="101.6"/>
+<instance part="GND4" gate="VR1" x="50.8" y="101.6"/>
 <instance part="P+12" gate="1" x="48.26" y="93.98"/>
 <instance part="P-5" gate="1" x="48.26" y="58.42"/>
-<instance part="GND22" gate="1" x="50.8" y="55.88"/>
-<instance part="GND23" gate="1" x="45.72" y="101.6"/>
-<instance part="GND24" gate="1" x="45.72" y="55.88"/>
-<instance part="GND25" gate="1" x="43.18" y="144.78"/>
-<instance part="GND26" gate="1" x="43.18" y="93.98"/>
-<instance part="GND27" gate="1" x="55.88" y="144.78"/>
-<instance part="GND28" gate="1" x="55.88" y="99.06"/>
+<instance part="GND22" gate="VR1" x="50.8" y="55.88"/>
+<instance part="GND23" gate="VR1" x="45.72" y="101.6"/>
+<instance part="GND24" gate="VR1" x="45.72" y="55.88"/>
+<instance part="GND25" gate="VR1" x="43.18" y="144.78"/>
+<instance part="GND26" gate="VR1" x="43.18" y="93.98"/>
+<instance part="GND27" gate="VR1" x="55.88" y="144.78"/>
+<instance part="GND28" gate="VR1" x="55.88" y="99.06"/>
 <instance part="IC4B6,8" gate="G$1" x="60.96" y="152.4"/>
 <instance part="IC4B6,9" gate="G$1" x="60.96" y="106.68"/>
 <instance part="IC4B6,10" gate="G$1" x="71.12" y="152.4"/>
@@ -20906,10 +20899,10 @@ Consuming only 20 mW of power at 3 V makes the AD9834 an ideal candidate for pow
 <instance part="AD633_3" gate="G$1" x="45.72" y="22.86" rot="R90"/>
 <instance part="P+13" gate="1" x="48.26" y="43.18"/>
 <instance part="P-7" gate="1" x="48.26" y="7.62"/>
-<instance part="GND29" gate="1" x="50.8" y="5.08"/>
-<instance part="GND30" gate="1" x="45.72" y="5.08"/>
-<instance part="GND31" gate="1" x="43.18" y="43.18"/>
-<instance part="GND32" gate="1" x="55.88" y="48.26"/>
+<instance part="GND29" gate="VR1" x="50.8" y="5.08"/>
+<instance part="GND30" gate="VR1" x="45.72" y="5.08"/>
+<instance part="GND31" gate="VR1" x="43.18" y="43.18"/>
+<instance part="GND32" gate="VR1" x="55.88" y="48.26"/>
 <instance part="IC4B6,12" gate="G$1" x="60.96" y="55.88"/>
 <instance part="IC4B6,13" gate="G$1" x="71.12" y="55.88"/>
 <instance part="IC4" gate="A" x="73.66" y="40.64"/>
@@ -20924,17 +20917,17 @@ Consuming only 20 mW of power at 3 V makes the AD9834 an ideal candidate for pow
 <instance part="C6" gate="G$1" x="129.54" y="86.36" rot="R180"/>
 <instance part="C7" gate="G$1" x="129.54" y="132.08" rot="R180"/>
 <instance part="C8" gate="G$1" x="139.7" y="121.92" rot="R270"/>
-<instance part="GND1" gate="1" x="129.54" y="127"/>
-<instance part="GND2" gate="1" x="129.54" y="81.28"/>
+<instance part="GND1" gate="VR1" x="129.54" y="127"/>
+<instance part="GND2" gate="VR1" x="129.54" y="81.28"/>
 <instance part="IC4B6,6" gate="G$1" x="106.68" y="40.64"/>
 <instance part="IC4B6,7" gate="G$1" x="127" y="40.64"/>
 <instance part="C29" gate="G$1" x="139.7" y="22.86" rot="R90"/>
 <instance part="C30" gate="G$1" x="132.08" y="35.56" rot="R180"/>
-<instance part="GND35" gate="1" x="132.08" y="30.48"/>
+<instance part="GND35" gate="VR1" x="132.08" y="30.48"/>
 <instance part="IC4" gate="B" x="142.24" y="43.18"/>
 <instance part="P+6" gate="1" x="195.58" y="144.78"/>
 <instance part="P-3" gate="1" x="195.58" y="124.46"/>
-<instance part="GND40" gate="1" x="256.54" y="132.08"/>
+<instance part="GND40" gate="VR1" x="256.54" y="132.08"/>
 <instance part="C,IC2A1" gate="G$1" x="213.36" y="139.7"/>
 <instance part="C,IC2A6" gate="G$1" x="226.06" y="139.7"/>
 <instance part="C,IC2A11" gate="G$1" x="236.22" y="139.7"/>
@@ -20958,76 +20951,76 @@ Consuming only 20 mW of power at 3 V makes the AD9834 an ideal candidate for pow
 <net name="GND" class="0">
 <segment>
 <pinref part="AD633_1" gate="G$1" pin="Z"/>
-<pinref part="GND4" gate="1" pin="GND"/>
+<pinref part="GND4" gate="VR1" pin="AGND"/>
 <wire x1="50.8" y1="109.22" x2="50.8" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="AD633_2" gate="G$1" pin="Z"/>
-<pinref part="GND22" gate="1" pin="GND"/>
+<pinref part="GND22" gate="VR1" pin="AGND"/>
 <wire x1="50.8" y1="58.42" x2="50.8" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GND24" gate="1" pin="GND"/>
+<pinref part="GND24" gate="VR1" pin="AGND"/>
 <pinref part="AD633_2" gate="G$1" pin="Y2"/>
 <wire x1="45.72" y1="58.42" x2="45.72" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="AD633_2" gate="G$1" pin="X2"/>
 <wire x1="45.72" y1="88.9" x2="45.72" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="GND26" gate="1" pin="GND"/>
+<pinref part="GND26" gate="VR1" pin="AGND"/>
 <wire x1="45.72" y1="96.52" x2="43.18" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="AD633_1" gate="G$1" pin="X2"/>
 <wire x1="45.72" y1="134.62" x2="45.72" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="GND25" gate="1" pin="GND"/>
+<pinref part="GND25" gate="VR1" pin="AGND"/>
 <wire x1="45.72" y1="147.32" x2="43.18" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="AD633_1" gate="G$1" pin="Y2"/>
-<pinref part="GND23" gate="1" pin="GND"/>
+<pinref part="GND23" gate="VR1" pin="AGND"/>
 <wire x1="45.72" y1="109.22" x2="45.72" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GND27" gate="1" pin="GND"/>
+<pinref part="GND27" gate="VR1" pin="AGND"/>
 <pinref part="IC4B6,8" gate="G$1" pin="1"/>
 <wire x1="55.88" y1="147.32" x2="55.88" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GND28" gate="1" pin="GND"/>
+<pinref part="GND28" gate="VR1" pin="AGND"/>
 <pinref part="IC4B6,9" gate="G$1" pin="1"/>
 <wire x1="55.88" y1="101.6" x2="55.88" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="AD633_3" gate="G$1" pin="Z"/>
-<pinref part="GND29" gate="1" pin="GND"/>
+<pinref part="GND29" gate="VR1" pin="AGND"/>
 <wire x1="50.8" y1="7.62" x2="50.8" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GND30" gate="1" pin="GND"/>
+<pinref part="GND30" gate="VR1" pin="AGND"/>
 <pinref part="AD633_3" gate="G$1" pin="Y2"/>
 <wire x1="45.72" y1="7.62" x2="45.72" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="AD633_3" gate="G$1" pin="X2"/>
 <wire x1="45.72" y1="38.1" x2="45.72" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="GND31" gate="1" pin="GND"/>
+<pinref part="GND31" gate="VR1" pin="AGND"/>
 <wire x1="45.72" y1="45.72" x2="43.18" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C7" gate="G$1" pin="1"/>
-<pinref part="GND1" gate="1" pin="GND"/>
+<pinref part="GND1" gate="VR1" pin="AGND"/>
 </segment>
 <segment>
 <pinref part="C6" gate="G$1" pin="1"/>
-<pinref part="GND2" gate="1" pin="GND"/>
+<pinref part="GND2" gate="VR1" pin="AGND"/>
 </segment>
 <segment>
 <pinref part="C30" gate="G$1" pin="1"/>
-<pinref part="GND35" gate="1" pin="GND"/>
+<pinref part="GND35" gate="VR1" pin="AGND"/>
 </segment>
 <segment>
-<pinref part="GND40" gate="1" pin="GND"/>
+<pinref part="GND40" gate="VR1" pin="AGND"/>
 <wire x1="256.54" y1="134.62" x2="236.22" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="236.22" y1="134.62" x2="226.06" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="226.06" y1="134.62" x2="218.44" y2="134.62" width="0.1524" layer="91"/>
@@ -21053,7 +21046,7 @@ Consuming only 20 mW of power at 3 V makes the AD9834 an ideal candidate for pow
 <segment>
 <pinref part="IC4B6,12" gate="G$1" pin="1"/>
 <wire x1="55.88" y1="50.8" x2="55.88" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="GND32" gate="1" pin="GND"/>
+<pinref part="GND32" gate="VR1" pin="AGND"/>
 </segment>
 </net>
 <net name="SIG" class="0">
@@ -21669,9 +21662,8 @@ Consuming only 20 mW of power at 3 V makes the AD9834 an ideal candidate for pow
 <instances>
 <instance part="U1" gate="G$1" x="139.7" y="40.64"/>
 <instance part="U2" gate="G$1" x="20.32" y="38.1" rot="R180"/>
-<instance part="QG1" gate="G$1" x="104.14" y="-7.62"/>
-<instance part="VDD3" gate="G$1" x="88.9" y="2.54"/>
-<instance part="GND5" gate="1" x="88.9" y="-17.78"/>
+<instance part="VDD3" gate="G$1" x="81.28" y="2.54"/>
+<instance part="GND5" gate="1" x="81.28" y="-17.78"/>
 <instance part="GND6" gate="1" x="22.86" y="-5.08"/>
 <instance part="GND7" gate="1" x="137.16" y="2.54"/>
 <instance part="GND8" gate="1" x="127" y="76.2"/>
@@ -21704,7 +21696,7 @@ Consuming only 20 mW of power at 3 V makes the AD9834 an ideal candidate for pow
 <instance part="C27" gate="G$1" x="22.86" y="2.54"/>
 <instance part="C28" gate="G$1" x="127" y="83.82"/>
 <instance part="C31" gate="G$1" x="147.32" y="83.82"/>
-<instance part="C32" gate="G$1" x="88.9" y="-7.62"/>
+<instance part="C32" gate="G$1" x="81.28" y="-7.62"/>
 <instance part="AGND1" gate="VR1" x="17.78" y="76.2" rot="R180"/>
 <instance part="AGND2" gate="VR1" x="17.78" y="-5.08"/>
 <instance part="AGND3" gate="VR1" x="147.32" y="76.2"/>
@@ -21736,13 +21728,13 @@ Consuming only 20 mW of power at 3 V makes the AD9834 an ideal candidate for pow
 <instance part="C35" gate="G$1" x="170.18" y="86.36"/>
 <instance part="C36" gate="G$1" x="162.56" y="68.58"/>
 <instance part="P+7" gate="1" x="162.56" y="73.66"/>
+<instance part="U$8" gate="G$1" x="99.06" y="-7.62"/>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="N$8" class="0">
 <segment>
-<pinref part="QG1" gate="G$1" pin="OUT"/>
 <pinref part="U1" gate="G$1" pin="MCLK"/>
 <wire x1="116.84" y1="-7.62" x2="116.84" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="17.78" x2="63.5" y2="17.78" width="0.1524" layer="91"/>
@@ -21750,6 +21742,8 @@ Consuming only 20 mW of power at 3 V makes the AD9834 an ideal candidate for pow
 <pinref part="U2" gate="G$1" pin="MCLK"/>
 <wire x1="63.5" y1="60.96" x2="43.18" y2="60.96" width="0.1524" layer="91"/>
 <junction x="116.84" y="17.78"/>
+<pinref part="U$8" gate="G$1" pin="OUT"/>
+<wire x1="116.84" y1="-7.62" x2="111.76" y2="-7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -21765,11 +21759,11 @@ Consuming only 20 mW of power at 3 V makes the AD9834 an ideal candidate for pow
 </segment>
 <segment>
 <pinref part="GND5" gate="1" pin="GND"/>
-<pinref part="QG1" gate="G$1" pin="GND"/>
-<wire x1="91.44" y1="-12.7" x2="88.9" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="-12.7" x2="88.9" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="-12.7" x2="81.28" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="-12.7" x2="81.28" y2="-15.24" width="0.1524" layer="91"/>
 <pinref part="C32" gate="G$1" pin="2"/>
-<junction x="88.9" y="-12.7"/>
+<junction x="81.28" y="-12.7"/>
+<pinref part="U$8" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="GND12" gate="1" pin="GND"/>
@@ -21832,13 +21826,13 @@ Consuming only 20 mW of power at 3 V makes the AD9834 an ideal candidate for pow
 </net>
 <net name="VDD" class="0">
 <segment>
-<pinref part="QG1" gate="G$1" pin="VCC"/>
-<wire x1="91.44" y1="-2.54" x2="88.9" y2="-2.54" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="-2.54" x2="88.9" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="-2.54" x2="81.28" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="-2.54" x2="81.28" y2="-5.08" width="0.1524" layer="91"/>
 <pinref part="VDD3" gate="G$1" pin="VDD"/>
-<wire x1="88.9" y1="-2.54" x2="88.9" y2="0" width="0.1524" layer="91"/>
-<junction x="88.9" y="-2.54"/>
+<wire x1="81.28" y1="-2.54" x2="81.28" y2="0" width="0.1524" layer="91"/>
+<junction x="81.28" y="-2.54"/>
 <pinref part="C32" gate="G$1" pin="1"/>
+<pinref part="U$8" gate="G$1" pin="VDD"/>
 </segment>
 </net>
 <net name="N$9" class="0">
