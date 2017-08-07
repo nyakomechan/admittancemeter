@@ -1849,6 +1849,12 @@ design rules under a new name.</description>
 <element name="JP3" library="pinhead" package="2X03" value="" x="18.034" y="3.302" rot="R180"/>
 <element name="Q2" library="crystal" package="FA-20H" value="FA-20H" x="5.842" y="9.652"/>
 <element name="R1" library="rcl" package="0207/7" value="" x="26.67" y="4.572" rot="R180"/>
+<element name="SV2" library="con-lstb" package="MA06-1" value="" x="12.954" y="21.59" rot="R180">
+<attribute name="MF" value="" x="12.954" y="21.59" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="12.954" y="21.59" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="12.954" y="21.59" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="12.954" y="21.59" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
 <element name="Q1" library="crystal" package="HC49/S" value="" x="6.096" y="4.572">
 <attribute name="MF" value="" x="6.096" y="4.572" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="6.096" y="4.572" size="1.778" layer="27" display="off"/>
@@ -1862,15 +1868,10 @@ design rules under a new name.</description>
 <attribute name="OC_FARNELL" value="unknown" x="26.162" y="19.05" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="26.162" y="19.05" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="SV3" library="con-lstb" package="MA06-1" value="" x="12.954" y="21.59" rot="R180">
-<attribute name="MF" value="" x="12.954" y="21.59" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="" x="12.954" y="21.59" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="12.954" y="21.59" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="12.954" y="21.59" size="1.778" layer="27" rot="R180" display="off"/>
-</element>
 </elements>
 <signals>
 <signal name="GND">
+<contactref element="SV2" pad="6"/>
 <contactref element="C50" pad="1"/>
 <contactref element="C43" pad="1"/>
 <contactref element="ATMEGA328" pad="3"/>
@@ -1896,6 +1897,7 @@ design rules under a new name.</description>
 <wire x1="15.1892" y1="2.3114" x2="15.494" y2="2.032" width="0.508" layer="1"/>
 <wire x1="2.6416" y1="10.5664" x2="2.794" y2="10.556" width="0.508" layer="1"/>
 <wire x1="6.604" y1="16.256" x2="6.604" y2="13.5382" width="0.508" layer="1"/>
+<wire x1="6.604" y1="16.256" x2="6.604" y2="21.59" width="0.508" layer="1"/>
 <wire x1="11.684" y1="11.0236" x2="10.7442" y2="11.0236" width="0.508" layer="1"/>
 <wire x1="11.684" y1="11.0236" x2="11.8872" y2="11.2268" width="0.508" layer="1"/>
 <wire x1="10.7442" y1="12.6238" x2="11.811" y2="12.6238" width="0.508" layer="1"/>
@@ -1910,13 +1912,9 @@ design rules under a new name.</description>
 <wire x1="8.5344" y1="11.0236" x2="7.62" y2="11.938" width="0.508" layer="1"/>
 <contactref element="C1" pad="2"/>
 <wire x1="6.096" y1="16.256" x2="6.604" y2="16.256" width="0.508" layer="1"/>
-<contactref element="SV3" pad="6"/>
-<contactref element="SV3" pad="5"/>
-<wire x1="9.144" y1="21.59" x2="6.604" y2="21.59" width="0.508" layer="1"/>
-<wire x1="6.604" y1="21.59" x2="6.604" y2="16.764" width="0.508" layer="1"/>
-<wire x1="6.604" y1="16.764" x2="6.096" y2="16.256" width="0.508" layer="1"/>
 </signal>
 <signal name="DTR">
+<contactref element="SV2" pad="1"/>
 <contactref element="C51" pad="1"/>
 <wire x1="28.0924" y1="25.88396875" x2="27.40796875" y2="26.5684" width="0.508" layer="1"/>
 <wire x1="27.40796875" y1="26.5684" x2="24.91603125" y2="26.5684" width="0.508" layer="1"/>
@@ -1924,10 +1922,8 @@ design rules under a new name.</description>
 <wire x1="25.908" y1="9.398" x2="25.908" y2="10.03163125" width="0.508" layer="1"/>
 <wire x1="25.908" y1="10.03163125" x2="28.0924" y2="12.21603125" width="0.508" layer="1"/>
 <wire x1="24.2316" y1="25.88396875" x2="24.2316" y2="25.2476" width="0.508" layer="1"/>
+<wire x1="24.2316" y1="25.2476" x2="19.304" y2="21.59" width="0.508" layer="1"/>
 <wire x1="28.0924" y1="12.21603125" x2="28.0924" y2="25.88396875" width="0.508" layer="1"/>
-<contactref element="SV3" pad="1"/>
-<wire x1="24.2316" y1="25.2476" x2="22.9616" y2="25.2476" width="0.508" layer="1"/>
-<wire x1="22.9616" y1="25.2476" x2="19.304" y2="21.59" width="0.508" layer="1"/>
 </signal>
 <signal name="SIG*SIN">
 <contactref element="ATMEGA328" pad="23"/>
@@ -1953,50 +1949,38 @@ design rules under a new name.</description>
 <contactref element="ATMEGA328" pad="6"/>
 <contactref element="ATMEGA328" pad="4"/>
 <contactref element="C52" pad="1"/>
-<wire x1="23.114" y1="6.604" x2="23.114" y2="5.588" width="0.508" layer="1"/>
-<wire x1="23.114" y1="4.6228" x2="23.114" y2="5.588" width="0.508" layer="1"/>
-<wire x1="22.86" y1="4.572" x2="23.114" y2="4.6228" width="0.508" layer="1"/>
+<contactref element="SV2" pad="5"/>
+<wire x1="23.114" y1="6.604" x2="23.114" y2="4.6228" width="0.508" layer="1"/>
+<wire x1="23.114" y1="4.6228" x2="22.86" y2="4.572" width="0.508" layer="1"/>
 <wire x1="22.86" y1="6.858" x2="23.114" y2="6.604" width="0.508" layer="1"/>
+<wire x1="9.2456" y1="20.1422" x2="9.144" y2="21.59" width="0.508" layer="1"/>
 <wire x1="20.2946" y1="9.4234" x2="19.2278" y2="9.4234" width="0.508" layer="1"/>
 <wire x1="20.2946" y1="9.4234" x2="22.86" y2="6.858" width="0.508" layer="1"/>
 <wire x1="10.7442" y1="11.8364" x2="9.4996" y2="11.8364" width="0.508" layer="1"/>
 <wire x1="9.4996" y1="11.8364" x2="8.636" y2="12.7" width="0.508" layer="1"/>
-<wire x1="8.636" y1="12.7" x2="8.636" y2="16.256" width="0.508" layer="1"/>
-<wire x1="10.7442" y1="10.2362" x2="14.478" y2="10.2362" width="0.508" layer="1"/>
-<wire x1="14.478" y1="10.2362" x2="16.6878" y2="10.2362" width="0.508" layer="1"/>
+<wire x1="8.636" y1="16.256" x2="8.636" y2="12.7" width="0.508" layer="1"/>
+<wire x1="8.636" y1="19.5326" x2="9.2456" y2="20.1422" width="0.508" layer="1"/>
+<wire x1="16.6878" y1="10.2362" x2="10.7442" y2="10.2362" width="0.508" layer="1"/>
 <wire x1="19.2278" y1="9.4234" x2="17.5006" y2="9.4234" width="0.508" layer="1"/>
 <wire x1="17.5006" y1="9.4234" x2="16.6878" y2="10.2362" width="0.508" layer="1"/>
 <contactref element="C1" pad="1"/>
-<contactref element="SV3" pad="4"/>
-<contactref element="JP3" pad="2"/>
-<wire x1="8.636" y1="16.256" x2="11.684" y2="19.304" width="0.508" layer="1"/>
-<wire x1="11.684" y1="19.304" x2="11.684" y2="21.59" width="0.508" layer="1"/>
-<wire x1="23.114" y1="5.588" x2="22.86" y2="5.588" width="0.508" layer="1"/>
-<wire x1="22.4536" y1="3.68885" x2="22.4536" y2="3.9624" width="0.508" layer="1"/>
-<wire x1="22.4536" y1="3.9624" x2="23.114" y2="4.6228" width="0.508" layer="1"/>
-<wire x1="21.40635" y1="2.6416" x2="22.4536" y2="3.68885" width="0.508" layer="1"/>
-<wire x1="20.574" y1="2.032" x2="21.1836" y2="2.6416" width="0.508" layer="1"/>
-<wire x1="21.1836" y1="2.6416" x2="21.40635" y2="2.6416" width="0.508" layer="1"/>
-<wire x1="16.6878" y1="10.2362" x2="16.5862" y2="10.2362" width="0.508" layer="1"/>
-<wire x1="16.5862" y1="10.2362" x2="16.51" y2="10.16" width="0.508" layer="1"/>
-<wire x1="14.478" y1="10.2362" x2="14.478" y2="10.414" width="0.508" layer="1"/>
-<wire x1="22.86" y1="6.858" x2="18.034" y2="6.858" width="0.508" layer="16"/>
-<wire x1="18.034" y1="6.858" x2="8.636" y2="16.256" width="0.508" layer="16"/>
+<wire x1="8.636" y1="16.256" x2="8.636" y2="19.5326" width="0.508" layer="1"/>
+<wire x1="10.7442" y1="11.8364" x2="10.7442" y2="10.2362" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RXD_MC">
+<contactref element="SV2" pad="3"/>
 <contactref element="ATMEGA328" pad="30"/>
-<contactref element="SV3" pad="3"/>
-<wire x1="13.7922" y1="21.1582" x2="14.224" y2="21.59" width="0.508" layer="1"/>
-<wire x1="13.7922" y1="15.6718" x2="13.7922" y2="21.1582" width="0.508" layer="1"/>
+<wire x1="13.7922" y1="15.6718" x2="13.7922" y2="19.8882" width="0.508" layer="1"/>
+<wire x1="13.7922" y1="19.8882" x2="14.224" y2="21.59" width="0.508" layer="1"/>
 </signal>
 <signal name="TXD_MC">
+<contactref element="SV2" pad="2"/>
 <contactref element="ATMEGA328" pad="31"/>
 <wire x1="13.74003125" y1="23.5204" x2="14.70796875" y2="23.5204" width="0.508" layer="1"/>
+<wire x1="16.764" y1="21.59" x2="16.63836875" y2="21.59" width="0.508" layer="1"/>
 <wire x1="16.63836875" y1="21.59" x2="14.70796875" y2="23.5204" width="0.508" layer="1"/>
 <wire x1="12.9794" y1="15.6718" x2="12.9794" y2="22.75976875" width="0.508" layer="1"/>
 <wire x1="12.9794" y1="22.75976875" x2="13.74003125" y2="23.5204" width="0.508" layer="1"/>
-<contactref element="SV3" pad="2"/>
-<wire x1="16.764" y1="21.59" x2="16.63836875" y2="21.59" width="0.508" layer="1"/>
 </signal>
 <signal name="IO_UPDATE">
 <contactref element="ATMEGA328" pad="11"/>
@@ -2069,6 +2053,9 @@ design rules under a new name.</description>
 <wire x1="17.4006125" y1="19.6596" x2="18.1356" y2="20.3945875" width="0.508" layer="1"/>
 <wire x1="29.464" y1="7.62" x2="29.464" y2="25.44631875" width="0.508" layer="1"/>
 <wire x1="29.464" y1="25.44631875" x2="27.68151875" y2="27.2288" width="0.508" layer="1"/>
+</signal>
+<signal name="3.3VMC">
+<contactref element="JP3" pad="2"/>
 </signal>
 <signal name="N$35">
 <contactref element="ATMEGA328" pad="16"/>
