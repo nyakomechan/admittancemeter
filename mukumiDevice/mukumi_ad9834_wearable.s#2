@@ -21457,9 +21457,6 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <sheet>
 <plain>
 <wire x1="-38.1" y1="124.46" x2="185.42" y2="124.46" width="0.1524" layer="97"/>
-<text x="-2.54" y="66.04" size="1.778" layer="98">16 : 半田付けしない</text>
-<text x="5.08" y="-27.94" size="1.778" layer="98">C11 : 付けない</text>
-<text x="193.04" y="35.56" size="1.778" layer="98">C13 : 付けない</text>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="139.7" y="40.64"/>

@@ -19742,10 +19742,8 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <part name="R5" library="rcl" deviceset="R-EU_" device="R0402" value="10k"/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
-<part name="GND19" library="supply1" deviceset="GND" device=""/>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
-<part name="GND17" library="supply1" deviceset="GND" device=""/>
 <part name="C16" library="rcl" deviceset="C-EU" device="C0402" value="20p"/>
 <part name="C17" library="rcl" deviceset="C-EU" device="C0402" value="20p"/>
 <part name="C20" library="rcl" deviceset="C-EU" device="C0402" value="20p"/>
@@ -19771,8 +19769,6 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <part name="AGND19" library="supply1" deviceset="AGND" device=""/>
 <part name="R12" library="rcl" deviceset="R-EU_" device="R0402" value="10k"/>
 <part name="R14" library="rcl" deviceset="R-EU_" device="R0402" value="10k"/>
-<part name="AGND20" library="supply1" deviceset="AGND" device=""/>
-<part name="AGND21" library="supply1" deviceset="AGND" device=""/>
 <part name="R15" library="rcl" deviceset="R-EU_" device="R0402" value="10k"/>
 <part name="GND33" library="supply1" deviceset="GND" device=""/>
 <part name="C33" library="rcl" deviceset="C-EU" device="C0402" value="0.1u"/>
@@ -19799,6 +19795,10 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <part name="R26" library="rcl" deviceset="R-EU_" device="R0402" value="3.3k"/>
 <part name="C40" library="rcl" deviceset="C-EU" device="C0805" value="0.47u"/>
 <part name="U$8" library="memsOsc" deviceset="SIT8002B" device=""/>
+<part name="GND18" library="supply1" deviceset="GND" device=""/>
+<part name="GND20" library="supply1" deviceset="GND" device=""/>
+<part name="AGND11" library="supply1" deviceset="AGND" device=""/>
+<part name="AGND13" library="supply1" deviceset="AGND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -21479,10 +21479,8 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <instance part="R5" gate="G$1" x="71.12" y="93.98" rot="R90"/>
 <instance part="GND10" gate="1" x="63.5" y="101.6" rot="R180"/>
 <instance part="GND13" gate="1" x="71.12" y="101.6" rot="R180"/>
-<instance part="GND19" gate="1" x="180.34" y="33.02"/>
 <instance part="GND21" gate="1" x="193.04" y="10.16"/>
 <instance part="GND14" gate="1" x="0" y="-20.32"/>
-<instance part="GND17" gate="1" x="7.62" y="78.74"/>
 <instance part="C16" gate="G$1" x="17.78" y="91.44"/>
 <instance part="C17" gate="G$1" x="10.16" y="-12.7"/>
 <instance part="C20" gate="G$1" x="203.2" y="20.32"/>
@@ -21508,8 +21506,6 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <instance part="AGND19" gate="VR1" x="-53.34" y="30.48"/>
 <instance part="R12" gate="G$1" x="55.88" y="33.02"/>
 <instance part="R14" gate="G$1" x="66.04" y="50.8"/>
-<instance part="AGND20" gate="VR1" x="66.04" y="30.48"/>
-<instance part="AGND21" gate="VR1" x="58.42" y="48.26"/>
 <instance part="R15" gate="G$1" x="68.58" y="38.1" rot="R180"/>
 <instance part="GND33" gate="1" x="58.42" y="38.1" rot="R270"/>
 <instance part="C33" gate="G$1" x="195.58" y="55.88" rot="R180"/>
@@ -21523,6 +21519,10 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <instance part="C35" gate="G$1" x="170.18" y="86.36"/>
 <instance part="C36" gate="G$1" x="162.56" y="68.58"/>
 <instance part="U$8" gate="G$1" x="99.06" y="-7.62"/>
+<instance part="GND18" gate="1" x="66.04" y="30.48"/>
+<instance part="GND20" gate="1" x="58.42" y="48.26"/>
+<instance part="AGND11" gate="VR1" x="7.62" y="78.74"/>
+<instance part="AGND13" gate="VR1" x="180.34" y="33.02"/>
 </instances>
 <busses>
 </busses>
@@ -21578,17 +21578,8 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <pinref part="R8" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="GND17" gate="1" pin="GND"/>
-<pinref part="R9" gate="G$1" pin="1"/>
-<wire x1="7.62" y1="81.28" x2="7.62" y2="83.82" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="R7" gate="G$1" pin="1"/>
 <pinref part="GND21" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="R6" gate="G$1" pin="1"/>
-<pinref part="GND19" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="GND6" gate="1" pin="GND"/>
@@ -21610,6 +21601,16 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <segment>
 <pinref part="C34" gate="G$1" pin="1"/>
 <pinref part="GND36" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="R12" gate="G$1" pin="2"/>
+<wire x1="60.96" y1="33.02" x2="66.04" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="GND18" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="R14" gate="G$1" pin="1"/>
+<wire x1="60.96" y1="50.8" x2="58.42" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="GND20" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -21815,16 +21816,6 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <junction x="-53.34" y="33.02"/>
 </segment>
 <segment>
-<pinref part="R12" gate="G$1" pin="2"/>
-<pinref part="AGND20" gate="VR1" pin="AGND"/>
-<wire x1="60.96" y1="33.02" x2="66.04" y2="33.02" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="R14" gate="G$1" pin="1"/>
-<pinref part="AGND21" gate="VR1" pin="AGND"/>
-<wire x1="60.96" y1="50.8" x2="58.42" y2="50.8" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="AGND22" gate="VR1" pin="AGND"/>
 <pinref part="C33" gate="G$1" pin="2"/>
 <wire x1="195.58" y1="60.96" x2="195.58" y2="63.5" width="0.1524" layer="91"/>
@@ -21835,6 +21826,15 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <segment>
 <pinref part="AGND23" gate="VR1" pin="AGND"/>
 <pinref part="C35" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<pinref part="R9" gate="G$1" pin="1"/>
+<wire x1="7.62" y1="81.28" x2="7.62" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="AGND11" gate="VR1" pin="AGND"/>
+</segment>
+<segment>
+<pinref part="R6" gate="G$1" pin="1"/>
+<pinref part="AGND13" gate="VR1" pin="AGND"/>
 </segment>
 </net>
 <net name="DDS_OUT2" class="0">
