@@ -13116,26 +13116,28 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="inductor-yuden">
-<description>&lt;b&gt;TAIYO YUDEN&lt;/b&gt; - Inductors&lt;p&gt;
+<library name="inductor-sumida">
+<description>&lt;b&gt;Sumida Power Inductors&lt;/b&gt;&lt;p&gt;
 &lt;p&gt;THIS LIBRARY IS PROVIDED AS IS AND WITHOUT WARRANTY OF ANY KIND, EXPRESSED OR IMPLIED.&lt;br&gt;
 USE AT YOUR OWN RISK!&lt;p&gt;
-&lt;author&gt;Copyright (C) 2010, Bob Starr&lt;br&gt; http://www.bobstarr.net&lt;br&gt;&lt;/author&gt;</description>
+&lt;author&gt;Copyright (C) 2008, Bob Starr&lt;br&gt; http://www.bobstarr.net&lt;br&gt;&lt;/author&gt;</description>
 <packages>
-<package name="CB2016">
-<description>POWER INDUCTOR</description>
-<smd name="1" x="-0.8" y="0" dx="0.6" dy="1.8" layer="1"/>
-<smd name="2" x="0.8" y="0" dx="0.6" dy="1.8" layer="1"/>
-<wire x1="-1" y1="0.8" x2="1" y2="0.8" width="0.0508" layer="51"/>
-<wire x1="1" y1="0.8" x2="1" y2="-0.8" width="0.0508" layer="51"/>
-<wire x1="1" y1="-0.8" x2="-1" y2="-0.8" width="0.0508" layer="51"/>
-<wire x1="-1" y1="-0.8" x2="-1" y2="0.8" width="0.0508" layer="51"/>
-<rectangle x1="-1" y1="-0.8" x2="-0.5" y2="0.8" layer="51"/>
-<rectangle x1="0.5" y1="-0.8" x2="1" y2="0.8" layer="51"/>
-<text x="-1.143" y="1.143" size="1.016" layer="25" ratio="18">&gt;NAME</text>
-<text x="-1.143" y="-2.032" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
-<wire x1="-0.2" y1="0.8" x2="0.2" y2="0.8" width="0.2032" layer="21"/>
-<wire x1="-0.2" y1="-0.8" x2="0.2" y2="-0.8" width="0.2032" layer="21"/>
+<package name="CDRH4D18">
+<smd name="1" x="-1.7" y="0" dx="1.9" dy="5.3" layer="1" roundness="20"/>
+<smd name="2" x="1.7" y="0" dx="1.9" dy="5.3" layer="1" roundness="20"/>
+<wire x1="-2.35" y1="-1.715" x2="-2.35" y2="1.35" width="0.0508" layer="51"/>
+<wire x1="-2.35" y1="1.35" x2="-1.35" y2="2.35" width="0.0508" layer="51"/>
+<wire x1="-1.35" y1="2.35" x2="1.715" y2="2.35" width="0.0508" layer="51"/>
+<wire x1="1.715" y1="2.35" x2="2.35" y2="1.715" width="0.0508" layer="51" curve="-90"/>
+<wire x1="2.35" y1="1.715" x2="2.35" y2="-1.35" width="0.0508" layer="51"/>
+<wire x1="2.35" y1="-1.35" x2="1.35" y2="-2.35" width="0.0508" layer="51"/>
+<wire x1="1.35" y1="-2.35" x2="-1.715" y2="-2.35" width="0.0508" layer="51"/>
+<wire x1="-1.715" y1="-2.35" x2="-2.35" y2="-1.715" width="0.0508" layer="51" curve="-90"/>
+<circle x="0" y="0" radius="2.236065625" width="0.0508" layer="51"/>
+<wire x1="-0.5" y1="2.6" x2="0.5" y2="2.6" width="0.2032" layer="21"/>
+<wire x1="-0.5" y1="-2.5" x2="0.5" y2="-2.5" width="0.2032" layer="21"/>
+<text x="-2.667" y="3.048" size="1.016" layer="25" ratio="18">&gt;NAME</text>
+<text x="-2.794" y="-3.81" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -13157,13 +13159,13 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="CB2016" prefix="L">
-<description>POWER INDUCTOR</description>
+<deviceset name="CDRH4D18" prefix="L">
+<description>Power Inductor</description>
 <gates>
 <gate name="G$1" symbol="L" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="CB2016">
+<device name="" package="CDRH4D18">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -13398,9 +13400,9 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <part name="AGND17" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND18" library="supply1" deviceset="AGND" device=""/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
+<part name="L1" library="inductor-sumida" deviceset="CDRH4D18" device=""/>
 <part name="P+4" library="supply1" deviceset="+5V" device=""/>
 <part name="P-11" library="supply1" deviceset="-5V" device=""/>
-<part name="L1" library="inductor-yuden" deviceset="CB2016" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -14130,9 +14132,9 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <instance part="AGND17" gate="VR1" x="121.92" y="63.5"/>
 <instance part="AGND18" gate="VR1" x="114.3" y="50.8"/>
 <instance part="GND11" gate="1" x="129.54" y="50.8"/>
+<instance part="L1" gate="G$1" x="121.92" y="53.34"/>
 <instance part="P+4" gate="1" x="30.48" y="50.8" rot="R270"/>
 <instance part="P-11" gate="1" x="30.48" y="55.88" rot="R90"/>
-<instance part="L1" gate="G$1" x="121.92" y="53.34"/>
 </instances>
 <busses>
 </busses>
@@ -14159,9 +14161,9 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <pinref part="JP2" gate="A" pin="3"/>
 </segment>
 <segment>
+<pinref part="L1" gate="G$1" pin="2"/>
 <pinref part="GND11" gate="1" pin="GND"/>
 <wire x1="127" y1="53.34" x2="129.54" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="L1" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="+BATTERY" class="0">
@@ -14232,9 +14234,9 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <pinref part="AGND17" gate="VR1" pin="AGND"/>
 </segment>
 <segment>
+<pinref part="L1" gate="G$1" pin="1"/>
 <pinref part="AGND18" gate="VR1" pin="AGND"/>
 <wire x1="116.84" y1="53.34" x2="114.3" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="L1" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="-5V" class="0">
