@@ -13088,66 +13088,6 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="inductor-yuden">
-<description>&lt;b&gt;TAIYO YUDEN&lt;/b&gt; - Inductors&lt;p&gt;
-&lt;p&gt;THIS LIBRARY IS PROVIDED AS IS AND WITHOUT WARRANTY OF ANY KIND, EXPRESSED OR IMPLIED.&lt;br&gt;
-USE AT YOUR OWN RISK!&lt;p&gt;
-&lt;author&gt;Copyright (C) 2010, Bob Starr&lt;br&gt; http://www.bobstarr.net&lt;br&gt;&lt;/author&gt;</description>
-<packages>
-<package name="CB2016">
-<description>POWER INDUCTOR</description>
-<smd name="1" x="-0.8" y="0" dx="0.6" dy="1.8" layer="1"/>
-<smd name="2" x="0.8" y="0" dx="0.6" dy="1.8" layer="1"/>
-<wire x1="-1" y1="0.8" x2="1" y2="0.8" width="0.0508" layer="51"/>
-<wire x1="1" y1="0.8" x2="1" y2="-0.8" width="0.0508" layer="51"/>
-<wire x1="1" y1="-0.8" x2="-1" y2="-0.8" width="0.0508" layer="51"/>
-<wire x1="-1" y1="-0.8" x2="-1" y2="0.8" width="0.0508" layer="51"/>
-<rectangle x1="-1" y1="-0.8" x2="-0.5" y2="0.8" layer="51"/>
-<rectangle x1="0.5" y1="-0.8" x2="1" y2="0.8" layer="51"/>
-<text x="-1.143" y="1.143" size="1.016" layer="25" ratio="18">&gt;NAME</text>
-<text x="-1.143" y="-2.032" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
-<wire x1="-0.2" y1="0.8" x2="0.2" y2="0.8" width="0.2032" layer="21"/>
-<wire x1="-0.2" y1="-0.8" x2="0.2" y2="-0.8" width="0.2032" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="L">
-<wire x1="-3.81" y1="0.635" x2="-1.905" y2="0.635" width="0.254" layer="94" curve="-180"/>
-<wire x1="-1.905" y1="0.635" x2="0" y2="0.635" width="0.254" layer="94" curve="-180"/>
-<wire x1="0" y1="0.635" x2="1.905" y2="0.635" width="0.254" layer="94" curve="-180"/>
-<wire x1="1.905" y1="0.635" x2="3.81" y2="0.635" width="0.254" layer="94" curve="-180"/>
-<wire x1="-3.81" y1="0.635" x2="-3.81" y2="0" width="0.254" layer="94"/>
-<wire x1="3.81" y1="0.635" x2="3.81" y2="0" width="0.254" layer="94"/>
-<wire x1="-3.81" y1="0" x2="-5.08" y2="0" width="0.1524" layer="94"/>
-<wire x1="3.81" y1="0" x2="5.08" y2="0" width="0.1524" layer="94"/>
-<wire x1="-3.4925" y1="2.2225" x2="3.4925" y2="2.2225" width="0.254" layer="94"/>
-<wire x1="-3.4925" y1="2.8575" x2="3.4925" y2="2.8575" width="0.254" layer="94"/>
-<text x="-3.81" y="3.81" size="1.778" layer="95">&gt;NAME</text>
-<text x="-3.81" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="2" x="5.08" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="1" x="-5.08" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="CB2016" prefix="L">
-<description>POWER INDUCTOR</description>
-<gates>
-<gate name="G$1" symbol="L" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="CB2016">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="torex">
 <description>&lt;b&gt;Torex Semiconductors&lt;/b&gt;&lt;p&gt;
 &lt;p&gt;THIS LIBRARY IS PROVIDED AS IS AND WITHOUT WARRANTY OF ANY KIND, EXPRESSED OR IMPLIED.&lt;br&gt;
@@ -13511,6 +13451,68 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="inductor-sumida">
+<description>&lt;b&gt;Sumida Power Inductors&lt;/b&gt;&lt;p&gt;
+&lt;p&gt;THIS LIBRARY IS PROVIDED AS IS AND WITHOUT WARRANTY OF ANY KIND, EXPRESSED OR IMPLIED.&lt;br&gt;
+USE AT YOUR OWN RISK!&lt;p&gt;
+&lt;author&gt;Copyright (C) 2008, Bob Starr&lt;br&gt; http://www.bobstarr.net&lt;br&gt;&lt;/author&gt;</description>
+<packages>
+<package name="CDRH4D18">
+<smd name="1" x="-1.7" y="0" dx="1.9" dy="5.3" layer="1" roundness="20"/>
+<smd name="2" x="1.7" y="0" dx="1.9" dy="5.3" layer="1" roundness="20"/>
+<wire x1="-2.35" y1="-1.715" x2="-2.35" y2="1.35" width="0.0508" layer="51"/>
+<wire x1="-2.35" y1="1.35" x2="-1.35" y2="2.35" width="0.0508" layer="51"/>
+<wire x1="-1.35" y1="2.35" x2="1.715" y2="2.35" width="0.0508" layer="51"/>
+<wire x1="1.715" y1="2.35" x2="2.35" y2="1.715" width="0.0508" layer="51" curve="-90"/>
+<wire x1="2.35" y1="1.715" x2="2.35" y2="-1.35" width="0.0508" layer="51"/>
+<wire x1="2.35" y1="-1.35" x2="1.35" y2="-2.35" width="0.0508" layer="51"/>
+<wire x1="1.35" y1="-2.35" x2="-1.715" y2="-2.35" width="0.0508" layer="51"/>
+<wire x1="-1.715" y1="-2.35" x2="-2.35" y2="-1.715" width="0.0508" layer="51" curve="-90"/>
+<circle x="0" y="0" radius="2.236065625" width="0.0508" layer="51"/>
+<wire x1="-0.5" y1="2.6" x2="0.5" y2="2.6" width="0.2032" layer="21"/>
+<wire x1="-0.5" y1="-2.5" x2="0.5" y2="-2.5" width="0.2032" layer="21"/>
+<text x="-2.667" y="3.048" size="1.016" layer="25" ratio="18">&gt;NAME</text>
+<text x="-2.794" y="-3.81" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="L">
+<wire x1="-3.81" y1="0.635" x2="-1.905" y2="0.635" width="0.254" layer="94" curve="-180"/>
+<wire x1="-1.905" y1="0.635" x2="0" y2="0.635" width="0.254" layer="94" curve="-180"/>
+<wire x1="0" y1="0.635" x2="1.905" y2="0.635" width="0.254" layer="94" curve="-180"/>
+<wire x1="1.905" y1="0.635" x2="3.81" y2="0.635" width="0.254" layer="94" curve="-180"/>
+<wire x1="-3.81" y1="0.635" x2="-3.81" y2="0" width="0.254" layer="94"/>
+<wire x1="3.81" y1="0.635" x2="3.81" y2="0" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="0" x2="-5.08" y2="0" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="0" x2="5.08" y2="0" width="0.1524" layer="94"/>
+<wire x1="-3.4925" y1="2.2225" x2="3.4925" y2="2.2225" width="0.254" layer="94"/>
+<wire x1="-3.4925" y1="2.8575" x2="3.4925" y2="2.8575" width="0.254" layer="94"/>
+<text x="-3.81" y="3.81" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.81" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="2" x="5.08" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="CDRH4D18" prefix="L">
+<description>Power Inductor</description>
+<gates>
+<gate name="G$1" symbol="L" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CDRH4D18">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -13596,10 +13598,10 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <part name="C8" library="rcl" deviceset="C-EU" device="C0805" value="0.47u"/>
 <part name="GND1" library="supply1" deviceset="AGND" device=""/>
 <part name="GND2" library="supply1" deviceset="AGND" device=""/>
-<part name="C18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" value="0.33u"/>
-<part name="C19" library="rcl" deviceset="C-EU" device="C0402" value="2.2u"/>
-<part name="C24" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" value="0.33u"/>
-<part name="C25" library="rcl" deviceset="C-EU" device="C0402" value="2.2u"/>
+<part name="C18" library="rcl" deviceset="C-EU" device="C0603" value="0.33u"/>
+<part name="C19" library="rcl" deviceset="C-EU" device="C0603" value="2.2u"/>
+<part name="C24" library="rcl" deviceset="C-EU" device="C0603" value="0.33u"/>
+<part name="C25" library="rcl" deviceset="C-EU" device="C0603" value="2.2u"/>
 <part name="SV2" library="con-lstb" deviceset="MA06-1" device=""/>
 <part name="SV1" library="con-lstb" deviceset="MA05-1" device=""/>
 <part name="R54" library="rcl" deviceset="R-EU_" device="R0402" value="560a"/>
@@ -13731,7 +13733,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="P+4" library="supply1" deviceset="+5V" device=""/>
 <part name="P-11" library="supply1" deviceset="-5V" device=""/>
-<part name="L1" library="inductor-yuden" deviceset="CB2016" device=""/>
+<part name="L1" library="inductor-sumida" deviceset="CDRH4D18" device=""/>
 <part name="IC9" library="torex" deviceset="NJM2884" device=""/>
 <part name="IC10" library="torex" deviceset="NJM2884" device=""/>
 <part name="R10" library="rcl" deviceset="R-EU_" device="R0402" value="1k"/>
