@@ -13527,8 +13527,8 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <part name="R33" library="rcl" deviceset="R-EU_" device="R0402" value="20k"/>
 <part name="R34" library="rcl" deviceset="R-EU_" device="R0402" value="5.1k"/>
 <part name="R36" library="rcl" deviceset="R-EU_" device="R0402" value="5.1k"/>
-<part name="R23" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" value="1k"/>
-<part name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" value="1k"/>
+<part name="R23" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" value="360"/>
+<part name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" value="680"/>
 <part name="R35" library="rcl" deviceset="R-EU_" device="R0402" value="20k"/>
 <part name="GND15" library="supply1" deviceset="AGND" device=""/>
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C2012" value="4.7u"/>
@@ -13539,7 +13539,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <part name="GND62" library="supply1" deviceset="AGND" device=""/>
 <part name="C3" library="rcl" deviceset="C-EU" device="C2012" value="4.7u"/>
 <part name="GND63" library="supply1" deviceset="AGND" device=""/>
-<part name="R28" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" value="2k"/>
+<part name="R28" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" value="1k"/>
 <part name="R25" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" value="1k"/>
 <part name="R27" library="rcl" deviceset="R-EU_" device="R0402" value="1k"/>
 <part name="GND64" library="supply1" deviceset="AGND" device=""/>
@@ -13574,8 +13574,8 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <part name="GND28" library="supply1" deviceset="AGND" device=""/>
 <part name="R44" library="rcl" deviceset="R-EU_" device="R0402" value="560a"/>
 <part name="R48" library="rcl" deviceset="R-EU_" device="R0402" value="560a"/>
-<part name="R45" library="rcl" deviceset="R-EU_" device="R0402" value="100k"/>
-<part name="R49" library="rcl" deviceset="R-EU_" device="R0402" value="47k"/>
+<part name="R45" library="rcl" deviceset="R-EU_" device="R0402" value="11k"/>
+<part name="R49" library="rcl" deviceset="R-EU_" device="R0402" value="11k"/>
 <part name="IC3" library="linear" deviceset="AD835" device=""/>
 <part name="P+13" library="supply1" deviceset="+5V" device=""/>
 <part name="P-7" library="supply1" deviceset="-5V" device=""/>

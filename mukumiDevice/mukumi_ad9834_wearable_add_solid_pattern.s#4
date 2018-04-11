@@ -13527,8 +13527,8 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <part name="R33" library="rcl" deviceset="R-EU_" device="R0402" value="20k"/>
 <part name="R34" library="rcl" deviceset="R-EU_" device="R0402" value="5.1k"/>
 <part name="R36" library="rcl" deviceset="R-EU_" device="R0402" value="5.1k"/>
-<part name="R23" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" value="1k"/>
-<part name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" value="1k"/>
+<part name="R23" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" value="360"/>
+<part name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" value="680"/>
 <part name="R35" library="rcl" deviceset="R-EU_" device="R0402" value="20k"/>
 <part name="GND15" library="supply1" deviceset="AGND" device=""/>
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C2012" value="4.7u"/>
@@ -13539,7 +13539,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <part name="GND62" library="supply1" deviceset="AGND" device=""/>
 <part name="C3" library="rcl" deviceset="C-EU" device="C2012" value="4.7u"/>
 <part name="GND63" library="supply1" deviceset="AGND" device=""/>
-<part name="R28" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" value="2k"/>
+<part name="R28" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" value="1k"/>
 <part name="R25" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" value="1k"/>
 <part name="R27" library="rcl" deviceset="R-EU_" device="R0402" value="1k"/>
 <part name="GND64" library="supply1" deviceset="AGND" device=""/>
@@ -14066,6 +14066,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <wire x1="7.62" y1="93.98" x2="7.62" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="IC8" gate="G$2" pin="+IN"/>
 <wire x1="7.62" y1="93.98" x2="15.24" y2="93.98" width="0.1524" layer="91"/>
+<junction x="7.62" y="93.98"/>
 </segment>
 </net>
 <net name="I2" class="0">
@@ -14155,6 +14156,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <label x="48.26" y="96.52" size="1.778" layer="95"/>
 <pinref part="IC8" gate="G$2" pin="OUT"/>
 <wire x1="30.48" y1="96.52" x2="35.56" y2="96.52" width="0.1524" layer="91"/>
+<junction x="35.56" y="96.52"/>
 </segment>
 </net>
 <net name="SIN" class="0">
