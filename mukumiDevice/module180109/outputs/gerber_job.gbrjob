@@ -1,0 +1,13 @@
+G04 Gerber job file.*
+%TF.FileFunction,JobInfo*%
+%TF.GenerationSoftware,Autodesk,EAGLE,8.7.1*%
+%TF.CreationDate,2018-04-24T04:54:26Z*%
+%TF.Part,Single*%
+%MOMM*%
+%TJ.B_Owner,  <tankun306@gmail.com>*%
+%TJ.B_ID,mukumi_add_adc*%
+%TJ.B_LayerNum,4*%
+%TJ.B_Thickness,1.606000*%
+%TJ.B_Size_X,49.190000*%
+%TJ.B_Size_Y,43.940000*%
+M02*
