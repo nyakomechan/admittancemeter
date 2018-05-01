@@ -16314,6 +16314,7 @@ MSOP&lt;br&gt;
 <wire x1="12.7" y1="139.7" x2="15.24" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="R54" gate="G$1" pin="1"/>
 <pinref part="R55" gate="G$1" pin="1"/>
+<junction x="12.7" y="134.62"/>
 </segment>
 </net>
 </nets>

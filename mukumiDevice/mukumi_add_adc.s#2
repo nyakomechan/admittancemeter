@@ -14435,7 +14435,7 @@ MSOP&lt;br&gt;
 <pin name="SDA" x="17.78" y="2.54" length="middle" rot="R180"/>
 <pin name="VDD" x="5.08" y="15.24" length="middle" rot="R270"/>
 <pin name="VSS" x="5.08" y="-15.24" length="middle" rot="R90"/>
-<text x="-5.08" y="10.16" size="1.778" layer="94">AD3422</text>
+<text x="-5.08" y="10.16" size="1.778" layer="94">MCP3422</text>
 </symbol>
 </symbols>
 <devicesets>

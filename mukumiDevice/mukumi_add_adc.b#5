@@ -27,16 +27,16 @@
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="58" fill="1" visible="no" active="yes"/>
-<layer number="22" name="bPlace" color="58" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="58" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="58" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="58" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="58" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="58" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="57" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="57" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="57" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="57" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="57" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -48,19 +48,19 @@
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
-<layer number="44" name="Drills" color="58" fill="1" visible="yes" active="yes"/>
-<layer number="45" name="Holes" color="58" fill="1" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="58" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="58" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="58" fill="1" visible="no" active="yes"/>
-<layer number="52" name="bDocu" color="58" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="58" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="58" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -188,7 +188,7 @@
 <wire x1="49.19" y1="43.94" x2="0" y2="43.94" width="0" layer="20"/>
 <wire x1="0" y1="43.94" x2="0" y2="0" width="0" layer="20"/>
 <text x="25.2238" y="20.9248" size="1.27" layer="28" rot="MR180">VR1</text>
-<text x="25.0758" y="23.2632" size="1.27" layer="26" rot="MR180">VR1</text>
+<text x="25.3758" y="27.8632" size="1.27" layer="26" rot="MR180">VR1</text>
 <wire x1="17.8324" y1="28.8496" x2="18.0356" y2="28.8496" width="0.0762" layer="26"/>
 <wire x1="11.7364" y1="38.2476" x2="11.4316" y2="38.2476" width="0.0762" layer="26"/>
 <wire x1="30.126" y1="7.8184" x2="30.126" y2="7.3612" width="0.0762" layer="26"/>
@@ -278,13 +278,23 @@
 <wire x1="28.5" y1="24.3" x2="28.8" y2="24.3" width="0.1524" layer="25"/>
 <text x="15.1" y="17.8" size="1.27" layer="26" rot="MR270">IC9</text>
 <text x="17.5" y="41.3" size="1.27" layer="26" rot="MR270">IC10</text>
-<wire x1="21.2" y1="11.6" x2="21.4" y2="11.8" width="0.1524" layer="26"/>
-<wire x1="21.4" y1="11.8" x2="21.4" y2="11.9" width="0.1524" layer="26"/>
-<wire x1="22.4" y1="10.6" x2="22.4" y2="10.4" width="0.1524" layer="26"/>
-<wire x1="22.4" y1="10.4" x2="22.7" y2="10.1" width="0.1524" layer="26"/>
 <text x="34.2" y="22.7" size="1.27" layer="25">SJ4</text>
 <text x="3.2" y="21.5" size="1.27" layer="24" rot="MR270">SJ1</text>
 <text x="5.5" y="21.4" size="1.27" layer="24" rot="MR270">SJ2</text>
+<text x="29.3" y="20.9" size="1.27" layer="24" rot="MR0">SJ5</text>
+<wire x1="30.3" y1="28.2" x2="30.3" y2="27.9" width="0.1524" layer="26"/>
+<wire x1="33.4" y1="28.4" x2="33.4" y2="28.6" width="0.1524" layer="26"/>
+<wire x1="42.7" y1="30" x2="43.3" y2="30" width="0.1524" layer="26"/>
+<wire x1="14.3" y1="34.4" x2="14.3" y2="34.6" width="0.1524" layer="25"/>
+<wire x1="16.6" y1="36.6" x2="16.6" y2="36.7" width="0.1524" layer="25"/>
+<wire x1="30.9" y1="36.1" x2="30.6" y2="36.1" width="0.1524" layer="25"/>
+<wire x1="25.7" y1="31.8" x2="25.7" y2="31.9" width="0.1524" layer="25"/>
+<wire x1="24.5" y1="31.8" x2="24.5" y2="31.9" width="0.1524" layer="25"/>
+<wire x1="27.4" y1="36.4" x2="27.4" y2="36.5" width="0.1524" layer="25"/>
+<wire x1="36.5" y1="36.9" x2="36.5" y2="36.7" width="0.1524" layer="25"/>
+<wire x1="36.5" y1="36.7" x2="36.4" y2="36.6" width="0.1524" layer="25"/>
+<wire x1="34.2" y1="37" x2="34.1" y2="37.1" width="0.1524" layer="25"/>
+<wire x1="34.1" y1="37.1" x2="34.1" y2="37.4" width="0.1524" layer="25"/>
 </plain>
 <libraries>
 <library name="rcl">
@@ -3571,7 +3581,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="32.9988" y="35.2848" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R35" library="rcl" package="R0402" value="20k" x="36.5238" y="37.1298" smashed="yes">
-<attribute name="NAME" x="35.416" y="35.3424" size="1.27" layer="25"/>
+<attribute name="NAME" x="35.516" y="35.3424" size="1.27" layer="25"/>
 <attribute name="VALUE" x="35.8888" y="35.2248" size="1.27" layer="27"/>
 </element>
 <element name="R36" library="rcl" package="R0402" value="5.1k" x="34.1438" y="36.5498" smashed="yes" rot="R270">
@@ -3722,7 +3732,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="14.4088" y="16.3942" size="1.27" layer="27" ratio="6" rot="SR270"/>
 </element>
 <element name="R1" library="rcl" package="R0402" value="10k" x="22.4438" y="11.0398" smashed="yes" rot="R270">
-<attribute name="NAME" x="24.5288" y="9.9116" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="24.1288" y="10.2116" size="1.27" layer="25" rot="R180"/>
 <attribute name="VALUE" x="20.5388" y="11.6748" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="C51" library="rcl" package="C0402" value="0.1u" x="21.1438" y="11.0398" smashed="yes" rot="R90">
@@ -3900,7 +3910,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="18.8788" y="31.7348" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="IC13" library="memsOsc" package="SOT25" value="SIT8002B" x="3.3438" y="25.9398" smashed="yes" rot="R270">
-<attribute name="NAME" x="0.2958" y="27.5908" size="1.016" layer="25" rot="R270"/>
+<attribute name="NAME" x="0.6958" y="27.1908" size="1.016" layer="25" rot="R270"/>
 <attribute name="VALUE" x="-0.0852" y="27.8448" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R3" library="rcl" package="R0402" value="1k" x="4.8118" y="17.2198" smashed="yes" rot="R180">

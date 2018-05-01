@@ -14492,12 +14492,12 @@ MSOP&lt;br&gt;
 <part name="R27" library="rcl" deviceset="R-EU_" device="R0402" value="7.5k"/>
 <part name="GND64" library="supply1" deviceset="AGND" device=""/>
 <part name="GND65" library="supply1" deviceset="AGND" device=""/>
-<part name="R38" library="rcl" deviceset="R-EU_" device="R0402" value="56"/>
-<part name="R37" library="rcl" deviceset="R-EU_" device="R0402" value="56"/>
-<part name="R39" library="rcl" deviceset="R-EU_" device="R0402" value="560"/>
-<part name="R40" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" value="560"/>
-<part name="R42" library="rcl" deviceset="R-EU_" device="R0402" value="62a"/>
-<part name="R43" library="rcl" deviceset="R-EU_" device="R0402" value="560a"/>
+<part name="R38" library="rcl" deviceset="R-EU_" device="R0402" value="5.6k"/>
+<part name="R37" library="rcl" deviceset="R-EU_" device="R0402" value="5.6k"/>
+<part name="R39" library="rcl" deviceset="R-EU_" device="R0402" value="56k"/>
+<part name="R40" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" value="56k"/>
+<part name="R42" library="rcl" deviceset="R-EU_" device="R0402" value="6.2k"/>
+<part name="R43" library="rcl" deviceset="R-EU_" device="R0402" value="56k"/>
 <part name="R41" library="rcl" deviceset="R-EU_" device="R0402" value="560"/>
 <part name="GND66" library="supply1" deviceset="AGND" device=""/>
 <part name="GND67" library="supply1" deviceset="AGND" device=""/>
@@ -14517,14 +14517,14 @@ MSOP&lt;br&gt;
 <part name="GND24" library="supply1" deviceset="AGND" device=""/>
 <part name="GND27" library="supply1" deviceset="AGND" device=""/>
 <part name="GND28" library="supply1" deviceset="AGND" device=""/>
-<part name="R44" library="rcl" deviceset="R-EU_" device="R0402" value="560a"/>
-<part name="R48" library="rcl" deviceset="R-EU_" device="R0402" value="560a"/>
+<part name="R44" library="rcl" deviceset="R-EU_" device="R0402" value="560"/>
+<part name="R48" library="rcl" deviceset="R-EU_" device="R0402" value="560"/>
 <part name="R45" library="rcl" deviceset="R-EU_" device="R0402" value="11k"/>
 <part name="R49" library="rcl" deviceset="R-EU_" device="R0402" value="11k"/>
-<part name="R46" library="rcl" deviceset="R-EU_" device="R0402" value="560a"/>
-<part name="R47" library="rcl" deviceset="R-EU_" device="R0402" value="560a"/>
-<part name="R50" library="rcl" deviceset="R-EU_" device="R0402" value="560a"/>
-<part name="R51" library="rcl" deviceset="R-EU_" device="R0402" value="560a"/>
+<part name="R46" library="rcl" deviceset="R-EU_" device="R0402" value="560"/>
+<part name="R47" library="rcl" deviceset="R-EU_" device="R0402" value="560"/>
+<part name="R50" library="rcl" deviceset="R-EU_" device="R0402" value="560"/>
+<part name="R51" library="rcl" deviceset="R-EU_" device="R0402" value="560"/>
 <part name="GND1" library="supply1" deviceset="AGND" device=""/>
 <part name="GND2" library="supply1" deviceset="AGND" device=""/>
 <part name="C18" library="rcl" deviceset="C-EU" device="C0603" value="0.33u"/>
@@ -14674,8 +14674,8 @@ MSOP&lt;br&gt;
 <part name="GND21" library="supply1" deviceset="AGND" device=""/>
 <part name="SJ4" library="jumper" deviceset="SJ" device=""/>
 <part name="SJ5" library="jumper" deviceset="SJ" device=""/>
-<part name="R56" library="rcl" deviceset="R-EU_" device="R0402" value="560a"/>
-<part name="R57" library="rcl" deviceset="R-EU_" device="R0402" value="560a"/>
+<part name="R56" library="rcl" deviceset="R-EU_" device="R0402" value="560"/>
+<part name="R57" library="rcl" deviceset="R-EU_" device="R0402" value="560"/>
 <part name="IC14" library="linear" deviceset="NJM074V" device=""/>
 <part name="GND37" library="supply1" deviceset="AGND" device=""/>
 <part name="GND38" library="supply1" deviceset="AGND" device=""/>
