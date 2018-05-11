@@ -1,0 +1,167 @@
+Partlist
+
+Exported from mukumi_add_adc.sch at 2018/05/07 13:34
+
+EAGLE Version 8.7.1 Copyright (c) 1988-2018 Autodesk, Inc.
+
+Assembly variant: 
+
+Part      Value          Device        Package               Library             Sheet
+
+ATMEGA328 ATMEGA328P-AU  ATMEGA328P-AU QFP80P900X900X120-32N Atmel-ATMEGA328P-AU 4
+C2        0.47u          C-EUC1206     C1206                 rcl                 1
+C3        0.47u          C-EUC1206     C1206                 rcl                 1
+C4        0.47u          C-EUC1206     C1206                 rcl                 1
+C5        0.1u           C-EUC0402     C0402                 rcl                 3
+C6        0.1u           C-EUC0402     C0402                 rcl                 3
+C7        0.1u           C-EUC0402     C0402                 rcl                 4
+C8        0.1u           C-EUC0402     C0402                 rcl                 1
+C9        0.1u           C-EUC0402     C0402                 rcl                 5
+C10       0.1u           C-EUC0402     C0402                 rcl                 5
+C11       0.1u           C-EUC0402     C0402                 rcl                 1
+C12       0.1u           C-EUC0402     C0402                 rcl                 1
+C13       0.1u           C-EUC0402     C0402                 rcl                 5
+C14       0.01u          C-EUC0402     C0402                 rcl                 5
+C16       20p            C-EUC0402     C0402                 rcl                 5
+C17       20p            C-EUC0402     C0402                 rcl                 5
+C18       0.33u          C-EUC0603     C0603                 rcl                 2
+C19       2.2u           C-EUC0603     C0603                 rcl                 2
+C20       20p            C-EUC0402     C0402                 rcl                 5
+C21       20p            C-EUC0402     C0402                 rcl                 5
+C22       0.1u           C-EUC0402     C0402                 rcl                 1
+C23       4.7u           C-EUC1812K    C1812K                rcl                 1
+C24       0.33u          C-EUC0603     C0603                 rcl                 2
+C25       2.2u           C-EUC0603     C0603                 rcl                 2
+C26       10u            C-EUC0402     C0402                 rcl                 5
+C27       10u            C-EUC0402     C0402                 rcl                 5
+C28       10u            C-EUC0402     C0402                 rcl                 5
+C31       10u            C-EUC0402     C0402                 rcl                 5
+C32       0.1u           C-EUC0402     C0402                 rcl                 5
+C33       0.1u           C-EUC0402     C0402                 rcl                 5
+C34       0.1u           C-EUC0402     C0402                 rcl                 5
+C35       0.1u           C-EUC0402     C0402                 rcl                 5
+C36       0.01u          C-EUC0402     C0402                 rcl                 5
+C37       3p             C-EUC0402     C0402                 rcl                 1
+C38       0.1u           C-EUC0402     C0402                 rcl                 1
+C39       3p             C-EUC0402     C0402                 rcl                 1
+C40       4.7u           C-EUC1812K    C1812K                rcl                 1
+C41       0.1u           C-EUC0402     C0402                 rcl                 1
+C42       0.1u           C-EUC0402     C0402                 rcl                 1
+C43       0.1u           C-EUC0402     C0402                 rcl                 3
+C44       0.1u           C-EUC0402     C0402                 rcl                 3
+C45       0.1u           C-EUC0402     C0402                 rcl                 3
+C46       0.1u           C-EUC0402     C0402                 rcl                 3
+C48       0.1u           C-EUC0402     C0402                 rcl                 3
+C49       0.1u           C-EUC0402     C0402                 rcl                 3
+C50       0.1u           C-EUC0402     C0402                 rcl                 3
+C51       0.1u           C-EUC0402     C0402                 rcl                 4
+C52       0.1u           C-EUC0402     C0402                 rcl                 4
+C53       0.1u           C-EUC0402     C0402                 rcl                 3
+C54       0.1u           C-EUC0402     C0402                 rcl                 3
+C55       0.1u           C-EUC0402     C0402                 rcl                 3
+C56       0.47u          C-EUC1206     C1206                 rcl                 3
+C57       0.47u          C-EUC1206     C1206                 rcl                 3
+C58       0.47u          C-EUC1206     C1206                 rcl                 3
+C59       0.47u          C-EUC1206     C1206                 rcl                 3
+D1                       DIODESOD-523  SOD-523               microbuilder        3
+D2                       DIODESOD-523  SOD-523               microbuilder        3
+D3                       DIODESOD-523  SOD-523               microbuilder        3
+D4                       DIODESOD-523  SOD-523               microbuilder        3
+IC1       AD835          AD835         SO08                  linear              3
+IC2       AD835          AD835         SO08                  linear              3
+IC3       MCP3422        MCP3422       MSOP8                 ad849x              4
+IC5       NJM074V        NJM074V       TSSOP14               linear              3
+IC6       NJM074V        NJM074V       TSSOP14               linear              1
+IC7       NJM074V        NJM074V       TSSOP14               linear              1
+IC8       NJM074V        NJM074V       TSSOP14               linear              1
+IC9       NJM2884        NJM2884       SOT89-5               torex               2
+IC10      NJM2884        NJM2884       SOT89-5               torex               2
+IC11      AD9834         AD9834        TSSOP20               ad9834              5
+IC12      AD9834         AD9834        TSSOP20               ad9834              5
+IC13      SIT8002B       SIT8002B      SOT25                 memsOsc             5
+IC14      NJM074V        NJM074V       TSSOP14               linear              3
+JP1                      PINHD-1X1     1X01                  pinhead             4
+JP2                      PINHD-1X4     1X04                  pinhead             2
+JP3                      PINHD-2X3     2X03                  pinhead             4
+L1        CDRH4D18       CDRH4D18      CDRH4D18              inductor-sumida     2
+R1        10k            R-EU_R0402    R0402                 rcl                 4
+R2        6.8k           R-EU_R0402    R0402                 rcl                 5
+R3        1k             R-EU_R0402    R0402                 rcl                 5
+R4        10k            R-EU_R0402    R0402                 rcl                 5
+R5        10k            R-EU_R0402    R0402                 rcl                 5
+R6        200            R-EU_R0402    R0402                 rcl                 5
+R7        200            R-EU_R0402    R0402                 rcl                 5
+R8        200            R-EU_R0402    R0402                 rcl                 5
+R9        200            R-EU_R0402    R0402                 rcl                 5
+R10       1k             R-EU_R0402    R0402                 rcl                 2
+R11       1k             R-EU_R0402    R0402                 rcl                 2
+R12       10k            R-EU_R0402    R0402                 rcl                 5
+R13       5.6k           R-EU_R0402    R0402                 rcl                 1
+R14       10k            R-EU_R0402    R0402                 rcl                 5
+R15       10k            R-EU_R0402    R0402                 rcl                 5
+R16       3.3k           R-EU_R0402    R0402                 rcl                 1
+R17       22k            R-EU_R0402    R0402                 rcl                 1
+R18       6.8k           R-EU_R0402    R0402                 rcl                 5
+R19       10k            R-EU_R0402    R0402                 rcl                 5
+R20       6.8k           R-EU_R0402    R0402                 rcl                 1
+R21       2.7k           R-EU_R0402    R0402                 rcl                 1
+R22       22k            R-EU_R0402    R0402                 rcl                 1
+R23       3.6k           R-EU_R0402    R0402                 rcl                 1
+R24       2.7k           R-EU_R0402    R0402                 rcl                 1
+R25       1k             R-EU_R0402    R0402                 rcl                 1
+R26       3.3k           R-EU_R0402    R0402                 rcl                 1
+R27       7.5k           R-EU_R0402    R0402                 rcl                 1
+R28       11k            R-EU_R0402    R0402                 rcl                 1
+R29       20k            R-EU_R0402    R0402                 rcl                 1
+R30       5.1k           R-EU_R0402    R0402                 rcl                 1
+R31       5.1k           R-EU_R0402    R0402                 rcl                 1
+R32       20k            R-EU_R0402    R0402                 rcl                 1
+R33       20k            R-EU_R0402    R0402                 rcl                 1
+R34       5.1k           R-EU_R0402    R0402                 rcl                 1
+R35       20k            R-EU_R0402    R0402                 rcl                 1
+R36       5.1k           R-EU_R0402    R0402                 rcl                 1
+R37       5.6k           R-EU_R0402    R0402                 rcl                 1
+R38       5.6k           R-EU_R0402    R0402                 rcl                 1
+R39       56k            R-EU_R0402    R0402                 rcl                 1
+R40       56k            R-EU_R0402    R0402                 rcl                 1
+R41       560            R-EU_R0402    R0402                 rcl                 1
+R42       6.2k           R-EU_R0402    R0402                 rcl                 1
+R43       56k            R-EU_R0402    R0402                 rcl                 1
+R44       560            R-EU_R0402    R0402                 rcl                 3
+R45       11k            R-EU_R0402    R0402                 rcl                 3
+R46       560            R-EU_R0402    R0402                 rcl                 3
+R47       560            R-EU_R0402    R0402                 rcl                 3
+R48       560            R-EU_R0402    R0402                 rcl                 3
+R49       11k            R-EU_R0402    R0402                 rcl                 3
+R50       560            R-EU_R0402    R0402                 rcl                 3
+R51       560            R-EU_R0402    R0402                 rcl                 3
+R52       10k            R-EU_R0402    R0402                 rcl                 4
+R53       10k            R-EU_R0402    R0402                 rcl                 4
+R54       0              R-EU_R0402    R0402                 rcl                 3
+R55       0              R-EU_R0402    R0402                 rcl                 3
+R56       560            R-EU_R0402    R0402                 rcl                 3
+R57       560            R-EU_R0402    R0402                 rcl                 3
+R58       0              R-EU_R0402    R0402                 rcl                 3
+R59       4.7k           R-EU_R0402    R0402                 rcl                 3
+R60       4.7k           R-EU_R0402    R0402                 rcl                 3
+R61       4.7k           R-EU_R0402    R0402                 rcl                 3
+R62       4.7k           R-EU_R0402    R0402                 rcl                 3
+R63       4.7k           R-EU_R0402    R0402                 rcl                 3
+R64       4.7k           R-EU_R0402    R0402                 rcl                 3
+R65       4.7k           R-EU_R0402    R0402                 rcl                 3
+R66       4.7k           R-EU_R0402    R0402                 rcl                 3
+R67       4.7k           R-EU_R0402    R0402                 rcl                 3
+R68       4.7k           R-EU_R0402    R0402                 rcl                 3
+R69       4.7k           R-EU_R0402    R0402                 rcl                 3
+R70       4.7k           R-EU_R0402    R0402                 rcl                 3
+R71       4.7k           R-EU_R0402    R0402                 rcl                 3
+R72       4.7k           R-EU_R0402    R0402                 rcl                 3
+R73       0              R-EU_R0402    R0402                 rcl                 3
+SJ1                      SJ            SJ                    jumper              4
+SJ2                      SJ            SJ                    jumper              4
+SJ3                      SJ            SJ                    jumper              3
+SJ4                      SJ            SJ                    jumper              3
+SJ5                      SJ            SJ                    jumper              3
+SV1                      MA05-1        MA05-1                con-lstb            1
+SV2                      MA06-1        MA06-1                con-lstb            4
+VR1       PVZ3A          PVZ3A         PVZ3A                 pvz3                1
