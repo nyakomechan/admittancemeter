@@ -3656,11 +3656,11 @@ design rules under a new name.</description>
 <attribute name="NAME" x="29.8244" y="18.033" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="27.3288" y="17.9048" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="R44" library="rcl" package="R0402" value="560" x="31.0438" y="4.2298" smashed="yes">
+<element name="R44" library="rcl" package="R0402" value="4.7k" x="31.0438" y="4.2298" smashed="yes">
 <attribute name="NAME" x="30.3664" y="3.7414" size="1.016" layer="25" rot="R270"/>
 <attribute name="VALUE" x="30.4088" y="2.3248" size="1.27" layer="27"/>
 </element>
-<element name="R48" library="rcl" package="R0402" value="560" x="31.2538" y="16.4298" smashed="yes">
+<element name="R48" library="rcl" package="R0402" value="4.7k" x="31.2538" y="16.4298" smashed="yes">
 <attribute name="NAME" x="29.4726" y="14.874" size="1.27" layer="25"/>
 <attribute name="VALUE" x="30.6188" y="14.5248" size="1.27" layer="27"/>
 </element>

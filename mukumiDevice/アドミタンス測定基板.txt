@@ -1,0 +1,12 @@
+admittancemeter.2l（2層パターンデータ）
+admittancemeter.3l（3層パターンデータ）
+admittancemeter.cmp(部品面パターンデータ)
+admittancemeter.drd（ドリルデータ）
+admittancemeter.dri(ドリルリスト）
+admittancemeter.gpi（レポートファイル)
+admittancemeter.out（外形線データ）
+admittancemeter.sol（半田面パターンデータ）
+admittancemeter.stc（部品面レジストデータ）
+admittancemeter.sts（半田面レジストデータ）
+admittancemeter.plc (部品面シルクデータ）
+
