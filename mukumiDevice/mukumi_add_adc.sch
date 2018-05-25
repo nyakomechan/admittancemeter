@@ -14516,8 +14516,8 @@ MSOP&lt;br&gt;
 <part name="GND24" library="supply1" deviceset="AGND" device=""/>
 <part name="GND27" library="supply1" deviceset="AGND" device=""/>
 <part name="GND28" library="supply1" deviceset="AGND" device=""/>
-<part name="R44" library="rcl" deviceset="R-EU_" device="R0402" value="560"/>
-<part name="R48" library="rcl" deviceset="R-EU_" device="R0402" value="560"/>
+<part name="R44" library="rcl" deviceset="R-EU_" device="R0402" value="4.7k"/>
+<part name="R48" library="rcl" deviceset="R-EU_" device="R0402" value="4.7k"/>
 <part name="R45" library="rcl" deviceset="R-EU_" device="R0402" value="11k"/>
 <part name="R49" library="rcl" deviceset="R-EU_" device="R0402" value="11k"/>
 <part name="R46" library="rcl" deviceset="R-EU_" device="R0402" value="560"/>
@@ -14777,7 +14777,7 @@ MSOP&lt;br&gt;
 <instance part="GND67" gate="VR1" x="-7.62" y="106.68"/>
 <instance part="GND68" gate="VR1" x="7.62" y="63.5"/>
 <instance part="P+31" gate="1" x="-243.84" y="81.28" rot="R90"/>
-<instance part="P-14" gate="1" x="-243.84" y="66.04" rot="R270"/>
+<instance part="P-14" gate="1" x="-246.38" y="66.04" rot="R270"/>
 <instance part="SV1" gate="G$1" x="-119.38" y="38.1"/>
 <instance part="P+3" gate="1" x="-274.32" y="25.4"/>
 <instance part="P-2" gate="1" x="-274.32" y="5.08"/>
@@ -15241,7 +15241,7 @@ MSOP&lt;br&gt;
 <segment>
 <pinref part="P-14" gate="1" pin="-5V"/>
 <pinref part="IC7" gate="G$1" pin="V-"/>
-<junction x="-241.3" y="66.04"/>
+<wire x1="-243.84" y1="66.04" x2="-241.3" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC8" gate="G$1" pin="V-"/>

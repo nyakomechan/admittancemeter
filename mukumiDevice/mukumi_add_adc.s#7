@@ -14435,11 +14435,11 @@ MSOP&lt;br&gt;
 <pin name="SDA" x="17.78" y="2.54" length="middle" rot="R180"/>
 <pin name="VDD" x="5.08" y="15.24" length="middle" rot="R270"/>
 <pin name="VSS" x="5.08" y="-15.24" length="middle" rot="R90"/>
-<text x="-5.08" y="10.16" size="1.778" layer="94">AD3422</text>
+<text x="-5.08" y="10.16" size="1.778" layer="94">MCP3422</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="AD3422">
+<deviceset name="MCP3422">
 <gates>
 <gate name="G$1" symbol="AD8422" x="-2.54" y="0"/>
 </gates>
@@ -14708,7 +14708,7 @@ MSOP&lt;br&gt;
 <part name="C59" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="0.47u"/>
 <part name="C5" library="rcl" deviceset="C-EU" device="C0402" value="0.1u"/>
 <part name="C6" library="rcl" deviceset="C-EU" device="C0402" value="0.1u"/>
-<part name="IC3" library="ad849x" deviceset="AD3422" device=""/>
+<part name="IC3" library="ad849x" deviceset="MCP3422" device=""/>
 <part name="GND29" library="supply1" deviceset="AGND" device=""/>
 <part name="GND30" library="supply1" deviceset="AGND" device=""/>
 <part name="GND31" library="supply1" deviceset="GND" device=""/>
